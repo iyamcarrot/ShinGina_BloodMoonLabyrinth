@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bb2er4wl0r6l3"]
+
+[ext_resource type="PackedScene" uid="uid://y4fj2j4i8dn5" path="res://assests/brackeys_3d_game_assets/brackeys_3d_game_assets/dungeon_assets/building/wall_shelved.glb" id="1_mts4e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pvk6h"]
+size = Vector3(4.0236816, 4.0202637, 1)
+
+[node name="ShelvedWall" type="StaticBody3D" unique_id=782355169]
+
+[node name="wall_shelved" parent="." unique_id=352779258 instance=ExtResource("1_mts4e")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1131029420]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9845525, 0)
+shape = SubResource("BoxShape3D_pvk6h")

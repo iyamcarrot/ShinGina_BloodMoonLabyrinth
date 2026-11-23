@@ -1,0 +1,120 @@
+[gd_scene format=3 uid="uid://bu8i1fse25gge"]
+
+[ext_resource type="Shader" uid="uid://bpc3r87rwrdp4" path="res://s_special-shader.tres" id="1_m5lpe"]
+[ext_resource type="Shader" uid="uid://ddpo652na1oe5" path="res://s_smoke_shader.tres" id="2_pgwxl"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_psqir"]
+render_priority = 0
+shader = ExtResource("1_m5lpe")
+shader_parameter/Speed = Vector2(0, 1)
+
+[sub_resource type="QuadMesh" id="QuadMesh_pvk6h"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cgomf"]
+render_priority = 0
+shader = ExtResource("2_pgwxl")
+
+[sub_resource type="Gradient" id="Gradient_pgwxl"]
+offsets = PackedFloat32Array(0, 0.46830985, 1)
+colors = PackedColorArray(0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_balet"]
+gradient = SubResource("Gradient_pgwxl")
+
+[sub_resource type="Curve" id="Curve_lbvhe"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.22689074), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_u4d8l"]
+curve = SubResource("Curve_lbvhe")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_pvk6h"]
+emission_shape = 1
+emission_sphere_radius = 0.2
+angle_min = -119.99999
+angle_max = 90.000015
+angular_velocity_min = -180.00002
+angular_velocity_max = 179.99998
+gravity = Vector3(0, 5, 0)
+damping_min = 1.5000001
+damping_max = 2.2
+scale_min = 0.5
+scale_curve = SubResource("CurveTexture_u4d8l")
+color = Color(1.0032392, 0.44572374, 8.372108e-05, 1)
+color_ramp = SubResource("GradientTexture1D_balet")
+
+[sub_resource type="QuadMesh" id="QuadMesh_psqir"]
+
+[sub_resource type="Animation" id="Animation_pgwxl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("OmniLight3D:light_energy")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.736]
+}
+
+[sub_resource type="Animation" id="Animation_lbvhe"]
+resource_name = "flicker"
+length = 0.56666666
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("OmniLight3D:light_energy")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.26666668, 0.56666666),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [0.736, 0.416, 0.736]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_iugo6"]
+_data = {
+&"RESET": SubResource("Animation_pgwxl"),
+&"flicker": SubResource("Animation_lbvhe")
+}
+
+[node name="Node" type="Node" unique_id=801398612]
+
+[node name="Node3D" type="Node3D" parent="." unique_id=1126289181]
+
+[node name="VFX_fire" type="Node3D" parent="Node3D" unique_id=730706018]
+transform = Transform3D(0.25, 0, 0, 0, 0.25, 0, 0, 0, 0.25, 0, 0, 0)
+
+[node name="fire" type="CPUParticles3D" parent="Node3D/VFX_fire" unique_id=287735572]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+sorting_offset = 2.0
+material_override = SubResource("ShaderMaterial_psqir")
+amount = 1
+mesh = SubResource("QuadMesh_pvk6h")
+gravity = Vector3(0, 0, 0)
+color = Color(11.919689, 3.538639, 0, 1)
+
+[node name="smoke" type="GPUParticles3D" parent="Node3D/VFX_fire" unique_id=442581828]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3, 0)
+material_override = SubResource("ShaderMaterial_cgomf")
+amount = 15
+lifetime = 1.5999999999999999
+randomness = 0.1
+fixed_fps = 60
+process_material = SubResource("ParticleProcessMaterial_pvk6h")
+draw_pass_1 = SubResource("QuadMesh_psqir")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="Node3D/VFX_fire" unique_id=1309901800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1, 0)
+light_color = Color(1, 0.44796598, 0.03876, 1)
+light_energy = 0.736
+shadow_enabled = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Node3D/VFX_fire" unique_id=1132987543]
+libraries/ = SubResource("AnimationLibrary_iugo6")
+autoplay = &"flicker"

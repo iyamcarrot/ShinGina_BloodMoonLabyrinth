@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cw4d6cioe6pkf"]
+
+[ext_resource type="PackedScene" uid="uid://b22ch0dwcuqhg" path="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/gltf/lantern_standing.gltf" id="1_kpi00"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_swuyx"]
+points = PackedVector3Array(-0.32001007, 0.63783526, -0.32001007, 0.32001007, 0.63783526, -0.32001007, -0.21995994, -2.9802322e-08, -0.21995994, -0.32001007, 0.63783526, 0.32001007, -0.22804163, 0.82050085, -0.052625, -0.15731114, 0.84341335, -0.12698913, -0.057198375, 0.87574434, -0.12698913, 0.32001007, 0.63783526, 0.32001007, 0.21989727, -2.9802322e-08, -0.21995994, 0, 0.92519176, -0.06415239, 0.046046853, 0.91341853, -0.06415239, -0.21995994, -2.9802322e-08, 0.21989727, -0.22804163, 0.82050085, 0.052562326, -0.057198375, 0.87574434, 0.12692645, -0.15731114, 0.84341335, 0.12692645, -0.21018672, 0.83689284, -0.04347828, -0.15167275, 0.8558204, -0.10499939, -0.046109527, 0.91341853, -0.06415239, 0.21989727, -2.9802322e-08, 0.21989727, 0.046046853, 0.91341853, 0.064089715, 0, 0.92519176, 0.064089715, -0.21018672, 0.83689284, 0.043415606, -0.046109527, 0.91341853, 0.064089715, -0.15167275, 0.8558204, 0.10493672)
+
+[node name="standinglantern" type="StaticBody3D" unique_id=2104905674]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=390656402]
+shape = SubResource("ConvexPolygonShape3D_swuyx")
+
+[node name="lantern_standing3" parent="." unique_id=1498814894 instance=ExtResource("1_kpi00")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=744690115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12, 0.41, -0.02)
+light_color = Color(0.9529412, 0.5411765, 0, 1)
+light_energy = 2.0
+omni_range = 10.0

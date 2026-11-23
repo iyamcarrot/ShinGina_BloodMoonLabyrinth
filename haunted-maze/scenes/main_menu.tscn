@@ -1,0 +1,290 @@
+[gd_scene format=3 uid="uid://bb6nomwkb8n4h"]
+
+[ext_resource type="PackedScene" uid="uid://bba45t0cnbtmu" path="res://scenes/ceiling.tscn" id="1_5pajh"]
+[ext_resource type="PackedScene" uid="uid://bx5ju6p038mf8" path="res://scenes/wood_floor.tscn" id="2_j7ex8"]
+[ext_resource type="PackedScene" uid="uid://cll5vt488w6ev" path="res://scenes/doorway.tscn" id="3_a8gd2"]
+[ext_resource type="PackedScene" uid="uid://b4aae150yf6ut" path="res://scenes/wall.tscn" id="4_hstxw"]
+[ext_resource type="PackedScene" uid="uid://cme8ocxwp5b4d" path="res://scenes/wall_cracked.tscn" id="5_8egab"]
+[ext_resource type="PackedScene" uid="uid://ch6qucf4jyhy6" path="res://scenes/wall_corner.tscn" id="6_gw5y6"]
+[ext_resource type="PackedScene" uid="uid://bb2er4wl0r6l3" path="res://scenes/shelved_wall.tscn" id="7_svtp6"]
+[ext_resource type="PackedScene" uid="uid://dycaftiuexrt7" path="res://scenes/window_closed_wall.tscn" id="8_1dfpl"]
+[ext_resource type="PackedScene" uid="uid://cbt6s0yv5ejm2" path="res://scenes/wall_half_endcap.tscn" id="9_qywvv"]
+[ext_resource type="PackedScene" uid="uid://nepssvexvo28" path="res://assests/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/rug.glb" id="10_3wgol"]
+[ext_resource type="PackedScene" uid="uid://dts4sm3o73vut" path="res://scenes/torch.tscn" id="11_1acrt"]
+[ext_resource type="PackedScene" uid="uid://hmtweabd0uge" path="res://scenes/decoratedbench.tscn" id="12_vr8o3"]
+[ext_resource type="PackedScene" uid="uid://qe7p7oi0kmgi" path="res://scenes/chest.tscn" id="13_1a85y"]
+[ext_resource type="PackedScene" uid="uid://dbfdg425gwpv4" path="res://scenes/lanternpost.tscn" id="14_hl5e0"]
+[ext_resource type="PackedScene" uid="uid://beedqn2b2d0y3" path="res://scenes/candles.tscn" id="15_engjn"]
+[ext_resource type="PackedScene" uid="uid://cncode0rm7cba" path="res://scenes/skullcandle.tscn" id="16_6h3lr"]
+[ext_resource type="FontFile" uid="uid://bakex3hx0w51f" path="res://fonts/horrendo.ttf" id="17_j7ex8"]
+
+[sub_resource type="Animation" id="Animation_5pajh"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SubViewportContainer/SubViewport/Camera3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-25.45448, 2.76381, 2.7584345)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SubViewportContainer/SubViewport/Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-0.26001722, 1.054137, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_j7ex8"]
+resource_name = "new_animation"
+length = 10.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("SubViewportContainer/SubViewport/Camera3D:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-25.45448, 2.76381, 2.7584345), Vector3(-34.516357, 3.0317473, -2.3538983)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("SubViewportContainer/SubViewport/Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-0.26001722, 1.054137, 0), Vector3(-0.33855695, -2.2008991, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_a8gd2"]
+_data = {
+&"RESET": SubResource("Animation_5pajh"),
+&"new_animation": SubResource("Animation_j7ex8")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_pvk6h"]
+font = ExtResource("17_j7ex8")
+font_size = 64
+font_color = Color(0.65819377, 0, 0.037096534, 1)
+outline_size = 14
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 19
+shadow_color = Color(0, 0, 0, 1)
+
+[sub_resource type="GDScript" id="GDScript_5pajh"]
+script/source = "extends Button
+
+
+func _on_pressed() -> void:
+	get_tree().change_scene_to_file(\"res://bloodmoon_labyrinth.tscn\")
+"
+
+[sub_resource type="GDScript" id="GDScript_j7ex8"]
+script/source = "extends Button
+
+
+func _on_pressed() -> void:
+	get_tree().quit()
+"
+
+[node name="Main Menu" type="Node3D" unique_id=417308471]
+
+[node name="SpawnRoom" type="Node" parent="." unique_id=33978312]
+
+[node name="SpawnRoomCeiling" type="Node" parent="SpawnRoom" unique_id=96966983]
+
+[node name="Ceiling" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1843307361 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -27.266384, 4.374135, 2.5366669)
+
+[node name="Ceiling3" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1867436932 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.187265, 4.374135, 2.5366666)
+
+[node name="Ceiling4" parent="SpawnRoom/SpawnRoomCeiling" unique_id=695420953 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.187265, 4.374135, -1.3501709)
+
+[node name="Ceiling5" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1641840196 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -33.185234, 4.374135, -1.350171)
+
+[node name="Ceiling6" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1825230153 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -33.185234, 4.374135, 1.8201276)
+
+[node name="Ceiling2" parent="SpawnRoom/SpawnRoomCeiling" unique_id=217072495 instance=ExtResource("1_5pajh")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -27.266384, 4.374135, -1.3535686)
+
+[node name="SpawnRoomFloor" type="Node" parent="SpawnRoom" unique_id=2012108583]
+
+[node name="WoodFloor" parent="SpawnRoom/SpawnRoomFloor" unique_id=1283440016 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.096933, 0.477, 2.0383189)
+
+[node name="WoodFloor2" parent="SpawnRoom/SpawnRoomFloor" unique_id=1067461159 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.074278, 0.477, 2.0383189)
+
+[node name="WoodFloor3" parent="SpawnRoom/SpawnRoomFloor" unique_id=779354941 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.074278, 0.477, -1.9324262)
+
+[node name="WoodFloor5" parent="SpawnRoom/SpawnRoomFloor" unique_id=112209043 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.667725, 0.477, -1.9324262)
+
+[node name="WoodFloor6" parent="SpawnRoom/SpawnRoomFloor" unique_id=702418213 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.667725, 0.477, 2.0570898)
+
+[node name="WoodFloor4" parent="SpawnRoom/SpawnRoomFloor" unique_id=1746164992 instance=ExtResource("2_j7ex8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.108988, 0.477, -1.9324262)
+
+[node name="SpawnRoomWalls" type="Node" parent="SpawnRoom" unique_id=982235853]
+
+[node name="Door" parent="SpawnRoom/SpawnRoomWalls" unique_id=1916694906 instance=ExtResource("3_a8gd2")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25.210001, 0.389, 0.19999997)
+
+[node name="Wall" parent="SpawnRoom/SpawnRoomWalls" unique_id=2033390465 instance=ExtResource("4_hstxw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.238363, 0.389, -3.5461516)
+
+[node name="WallCracked" parent="SpawnRoom/SpawnRoomWalls" unique_id=775641539 instance=ExtResource("5_8egab")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.209011, 0.389, -3.5439816)
+
+[node name="WallCorner" parent="SpawnRoom/SpawnRoomWalls" unique_id=1576916268 instance=ExtResource("6_gw5y6")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -35.202553, 0.389, -3.559918)
+
+[node name="ShelvedWall" parent="SpawnRoom/SpawnRoomWalls" unique_id=782355169 instance=ExtResource("7_svtp6")]
+transform = Transform3D(4.4703484e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, 4.4703484e-08, -35.196743, 0.389, 0.5836567)
+
+[node name="WallCorner2" parent="SpawnRoom/SpawnRoomWalls" unique_id=687941103 instance=ExtResource("6_gw5y6")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -35.195107, 0.389, 4.0321546)
+
+[node name="WindowClosedWall" parent="SpawnRoom/SpawnRoomWalls" unique_id=1138520264 instance=ExtResource("8_1dfpl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.218935, 0.389, 4.030572)
+
+[node name="WallCracked2" parent="SpawnRoom/SpawnRoomWalls" unique_id=1028009622 instance=ExtResource("5_8egab")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.220673, 0.389, 4.020753)
+
+[node name="WallHalfEndcap" parent="SpawnRoom/SpawnRoomWalls" unique_id=1899206795 instance=ExtResource("9_qywvv")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.496729, 0.389, 4.068986)
+
+[node name="WallHalfEndcap2" parent="SpawnRoom/SpawnRoomWalls" unique_id=55717169 instance=ExtResource("9_qywvv")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -25.60721, 0.389, -3.6637342)
+
+[node name="WallHalfEndcap3" parent="SpawnRoom/SpawnRoomWalls" unique_id=965617757 instance=ExtResource("9_qywvv")]
+transform = Transform3D(-2.1855693e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855693e-07, -35.197212, 0.389, -0.56373596)
+
+[node name="SpawnRoomDecor" type="Node" parent="SpawnRoom" unique_id=2027455697]
+
+[node name="rug2" parent="SpawnRoom/SpawnRoomDecor" unique_id=483119714 instance=ExtResource("10_3wgol")]
+transform = Transform3D(-1.9893073, 0, 1.7391076e-07, 0, 1.9893073, 0, -1.7391076e-07, 0, -1.9893073, -30.118286, 0.34736356, 0.058878005)
+
+[node name="torch" parent="SpawnRoom/SpawnRoomDecor" unique_id=1438630890 instance=ExtResource("11_1acrt")]
+transform = Transform3D(-4.371139e-08, -0.116092905, -0.99323833, 0, 0.99323833, -0.116092905, 1, -5.074582e-09, -4.3415827e-08, -25.420135, 2.742322, -1.2)
+
+[node name="torch2" parent="SpawnRoom/SpawnRoomDecor" unique_id=1455314590 instance=ExtResource("11_1acrt")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.429998, 2.74, 1.6600001)
+
+[node name="decoratedbench" parent="SpawnRoom/SpawnRoomDecor" unique_id=2121755642 instance=ExtResource("12_vr8o3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.379642, 0.31259012, -2.5475998)
+
+[node name="Chest" parent="SpawnRoom/SpawnRoomDecor" unique_id=1707105757 instance=ExtResource("13_1a85y")]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -33.859516, 0.5125903, -2.0942175)
+
+[node name="lanternpost" parent="SpawnRoom/SpawnRoomDecor" unique_id=727751559 instance=ExtResource("14_hl5e0")]
+transform = Transform3D(-0.6427876, 0, 0.7660445, 0, 1, 0, -0.7660445, 0, -0.6427876, -34.45907, 0.3, 3.236203)
+
+[node name="candles" parent="SpawnRoom/SpawnRoomDecor" unique_id=1504846480 instance=ExtResource("15_engjn")]
+transform = Transform3D(0.89363265, 0, -0.4487992, 0, 1, 0, 0.4487992, 0, 0.89363265, -26.521645, 0.19999993, -2.845184)
+
+[node name="skullcandle" parent="SpawnRoom/SpawnRoomDecor" unique_id=92541628 instance=ExtResource("16_6h3lr")]
+transform = Transform3D(-0.5203622, 0, -0.3004311, 0, 0.6008625, 0, 0.3004311, 0, -0.5203622, -30.78201, 1.6352715, 3.878949)
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=978075451]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=1665871539]
+handle_input_locally = false
+size = Vector2i(1152, 648)
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/SubViewport" unique_id=2058963054]
+transform = Transform3D(0.4939783, -0.22353938, 0.84024733, 0, 0.96638554, 0.25709718, -0.86947423, -0.12700042, 0.47737348, -25.45448, 2.76381, 2.7584345)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1556228414]
+libraries/ = SubResource("AnimationLibrary_a8gd2")
+autoplay = &"new_animation"
+speed_scale = 0.5
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=1972267200]
+custom_minimum_size = Vector2(1, 1)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -238.99997
+offset_top = -290.0
+offset_right = 266.0
+offset_bottom = 147.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.0116003, 0.92884094)
+size_flags_stretch_ratio = 0.25
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer2" unique_id=1937171645]
+layout_mode = 2
+text = "blood moon
+labyrinth"
+label_settings = SubResource("LabelSettings_pvk6h")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1688204584]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -20.0
+offset_right = 54.0
+offset_bottom = 122.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.5679533, 1.4399999)
+alignment = 1
+
+[node name="Play" type="Button" parent="VBoxContainer" unique_id=621795219]
+layout_mode = 2
+text = "Play
+"
+script = SubResource("GDScript_5pajh")
+
+[node name="Quit" type="Button" parent="VBoxContainer" unique_id=917069344]
+layout_mode = 2
+text = "Quit
+"
+script = SubResource("GDScript_j7ex8")
+
+[connection signal="pressed" from="VBoxContainer/Play" to="SpawnRoom/SpawnRoomWalls/Door" method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/Play" to="VBoxContainer/Play" method="_on_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="VBoxContainer/Play" method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="VBoxContainer/Quit" method="_on_pressed"]

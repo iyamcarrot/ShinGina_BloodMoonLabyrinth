@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d2g00hwkk2f3c"
+path="res://.godot/imported/shrine.obj-d470ff28178b7cd7abf112c0e2a3132f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shrine.obj-d470ff28178b7cd7abf112c0e2a3132f.mesh"]
+
+source_file="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/obj/shrine.obj"
+dest_files=["res://.godot/imported/shrine.obj-d470ff28178b7cd7abf112c0e2a3132f.mesh", "res://.godot/imported/shrine.obj-d470ff28178b7cd7abf112c0e2a3132f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

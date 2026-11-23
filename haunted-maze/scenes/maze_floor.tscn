@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://birxbsltjcoky"]
+
+[ext_resource type="PackedScene" uid="uid://dj5n0cyrqa80f" path="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/gltf/floor_dirt.gltf" id="1_s3jdn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pvk6h"]
+size = Vector3(4.0146484, 0.51226807, 4.020508)
+
+[node name="MazeFloor" type="StaticBody3D" unique_id=1243762849]
+
+[node name="floor_dirt2" parent="." unique_id=1507299458 instance=ExtResource("1_s3jdn")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1378424575]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.24386597, 0)
+shape = SubResource("BoxShape3D_pvk6h")

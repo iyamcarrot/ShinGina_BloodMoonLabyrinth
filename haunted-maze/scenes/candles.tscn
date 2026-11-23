@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://beedqn2b2d0y3"]
+
+[ext_resource type="PackedScene" uid="uid://d07qp6xrdt8en" path="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/gltf/candle_triple.gltf" id="1_clkal"]
+[ext_resource type="PackedScene" uid="uid://cl7c6p7koc32t" path="res://scenes/vfx_fire_small.tscn" id="2_clkal"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_psqir"]
+size = Vector3(0.52615356, 0.8461914, 0.4078369)
+
+[node name="candles" type="StaticBody3D" unique_id=1504846480]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1018781037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08366394, 0.41955924, 0.02532959)
+shape = SubResource("BoxShape3D_psqir")
+
+[node name="candle_triple2" parent="." unique_id=1281630570 instance=ExtResource("1_clkal")]
+
+[node name="VFX_Fire_small" parent="." unique_id=1004488308 instance=ExtResource("2_clkal")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0043469965, 0.6664078, 0.0034725368)
+
+[node name="VFX_Fire_small2" parent="." unique_id=940687084 instance=ExtResource("2_clkal")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.19988188, 0.5981684, 0.1308614)
+
+[node name="VFX_Fire_small3" parent="." unique_id=2089781833 instance=ExtResource("2_clkal")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.241833, 0.828224, -0.057187453)

@@ -1,0 +1,140 @@
+[gd_scene format=3 uid="uid://bsrn035vbhwun"]
+
+[ext_resource type="PackedScene" uid="uid://de8o25vx5yg" path="res://assests/brackeys_3d_game_assets/brackeys_3d_game_assets/Key by Quaternius - dZzratHeeG.glb" id="1_yk2u2"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_fttkb"]
+points = PackedVector3Array(-1.7448328e-06, 0.0049010413, -3.1106174e-07, -1.7448328e-06, 0.0046136696, -0.0011916724, -0.0019372697, 0.004556964, -3.1106174e-07, -1.7448328e-06, 0.0046136696, 0.0011910505, 0.0019337796, 0.004556964, -3.1106174e-07, -1.7448328e-06, 0.003754438, -0.001588482, -0.00182386, 0.004290737, -0.001108019, 0.0018222602, 0.004290737, -0.001108019, 0.013870144, 0.0010556434, -0.0010809638, -0.0035590276, 0.0035583712, -3.1106174e-07, -0.00182386, 0.004290737, 0.0011077081, -1.7448328e-06, 0.003754438, 0.0015881709, 0.013870144, 0.0010556434, 0.0010806527, 0.0018222602, 0.004290737, 0.0011077081, 0.013870144, 0.0014227871, 0, -0.0037556044, -6.156042e-07, -0.001588482, -0.003492872, 0.0014823759, -0.0014774624, -0.0014836311, 0.0034910943, -0.0014774624, 0.013870144, -4.8671383e-05, -0.0014413887, 0.0037540044, -6.156042e-07, -0.001588482, -0.00335111, 0.0033498108, -0.0010246766, 0.014272749, 0.0010556434, 0, 0.01416879, 0.00076923287, -0.0008007715, 0.014272749, -4.8671383e-05, -0.0010809638, -0.00429241, 0.0018216474, -0.001108019, -0.0045589227, 0.0019350583, -3.1106174e-07, -0.00429241, 0.0018216474, 0.0011077081, -0.00335111, 0.0033498108, 0.0010243657, -0.0014836311, 0.0034910943, 0.0014771514, -0.003492872, 0.0014823759, 0.0014771514, -0.0037556044, -6.156042e-07, 0.0015881709, 2.0937063e-05, -0.0037556696, 0.001588482, 0.0037540044, -6.156042e-07, 0.0015881709, 0.013870144, -4.8671383e-05, 0.0014410778, 0.014272749, -4.8671383e-05, 0.0010806527, 0.01416879, 0.00076923287, 0.0008004606, -0.003492872, -0.0014836073, -0.0014774624, -0.00429241, -0.0018228788, -0.001108019, -0.004615627, -6.156042e-07, -0.0011913615, 2.0937063e-05, -0.0037556696, -0.001588482, -0.0027273567, 0.002726051, -0.0013661318, 0.013093289, -0.004443824, -0.0008315585, 0.012244606, -0.004443824, -0.001108641, 0.014406949, -4.8671383e-05, 0, 0.014272749, -0.0011520246, 0, 0.01416879, -0.00086561404, -0.0008007715, -0.0049010417, -6.156042e-07, 0, -0.004615627, -6.156042e-07, 0.0011910505, -0.0027273567, 0.002726051, 0.0013658206, -0.00429241, -0.0018228788, 0.0011077081, -0.003492872, -0.0014836073, 0.0014771514, -0.0014685097, -0.0034923255, 0.0014771514, -0.0018049583, -0.0042919684, 0.0011077081, 2.660742e-05, -0.0046149013, 0.0011913613, 0.012244606, -0.004443824, 0.00110833, 0.013093289, -0.004443824, 0.00083124754, 0.01416879, -0.00086561404, 0.0008004606, -0.0014685097, -0.0034923255, -0.0014774624, -0.0027235765, -0.0027272827, -0.0013661318, -0.0033473296, -0.0033510425, -0.0010246766, -0.0045589227, -0.0019362897, 0, -0.0035552473, -0.0035596031, 0, 2.660742e-05, -0.0046149013, -0.0011913615, -0.0018049583, -0.0042919684, -0.001108019, 0.013376813, -0.004443824, 0, 0.013093289, -0.004799434, 0, 0.01287403, -0.0047071674, -0.00061604986, 0.012244606, -0.004799434, -0.0008315585, -0.0033473296, -0.0033510425, 0.0010243657, -0.0027235765, -0.0027272827, 0.0013658206, -0.0019164779, -0.004558196, 0, 2.849754e-05, -0.004901312, 0, 0.012244606, -0.004799434, 0.00083124754, 0.01287403, -0.0047071674, 0.0006157388, 0.012244606, -0.0049176505, 0)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wy8tx"]
+albedo_color = Color(0.827451, 0.6862745, 0.21568628, 1)
+metallic = 1.0
+roughness = 0.0
+
+[sub_resource type="Animation" id="Animation_brs3p"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Root Scene/RootNode/Key:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(4.371139e-08, 0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(4.371139e-08, 0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CollisionShape3D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.5, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Root Scene/RootNode/Key:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0.5, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_jcln5"]
+resource_name = "key"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Root Scene/RootNode/Key:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(4.371139e-08, 0, 0), Vector3(0, 6.2831855, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("CollisionShape3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(4.371139e-08, 0, 0), Vector3(0, 6.2831855, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("CollisionShape3D:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.5, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Root Scene/RootNode/Key:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(0, 0.5, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_b4qnb"]
+_data = {
+&"RESET": SubResource("Animation_brs3p"),
+&"key": SubResource("Animation_jcln5")
+}
+
+[node name="key" type="StaticBody3D" unique_id=904363028]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1401328799]
+transform = Transform3D(50, 0, 0, 0, 50, -2.1855694e-06, 0, 2.1855694e-06, 50, 0, 0.5, 0)
+shape = SubResource("ConvexPolygonShape3D_fttkb")
+debug_color = Color(0.78495246, 0.43378583, 5.7756904e-07, 0.41960785)
+
+[node name="Root Scene" parent="." unique_id=1018234762 instance=ExtResource("1_yk2u2")]
+
+[node name="Key" parent="Root Scene/RootNode" parent_id_path=PackedInt32Array(1018234762, 1444943628) index="0" unique_id=694221633]
+transform = Transform3D(50, 0, 0, 0, 50, -2.1855694e-06, 0, 2.1855694e-06, 50, 0, 0.5, 0)
+surface_material_override/0 = SubResource("StandardMaterial3D_wy8tx")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1766768791]
+libraries/ = SubResource("AnimationLibrary_b4qnb")
+autoplay = &"key"
+
+[editable path="Root Scene"]

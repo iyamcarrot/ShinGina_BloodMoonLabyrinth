@@ -1,0 +1,3147 @@
+[gd_scene format=3 uid="uid://634qaxednqnm"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://proto_controller.tscn" id="1_a202f"]
+[ext_resource type="Texture2D" uid="uid://cl61dvedwd4rm" path="res://assests/brackeys_3d_game_assets/brackeys_3d_game_assets/sky_background/HDR_multi_nebulae_2.hdr" id="1_pb8dk"]
+[ext_resource type="PackedScene" uid="uid://6pccruggdh27" path="res://rain_fx_tutorial.tscn" id="2_2mu51"]
+[ext_resource type="PackedScene" uid="uid://dbfdg425gwpv4" path="res://scenes/lanternpost.tscn" id="4_2mu51"]
+[ext_resource type="PackedScene" uid="uid://bx5ju6p038mf8" path="res://scenes/wood_floor.tscn" id="4_r3fl7"]
+[ext_resource type="PackedScene" uid="uid://b4aae150yf6ut" path="res://scenes/wall.tscn" id="5_jka67"]
+[ext_resource type="PackedScene" uid="uid://ckoscx752ctmi" path="res://scenes/my_barrel.tscn" id="5_jsk3o"]
+[ext_resource type="PackedScene" uid="uid://cme8ocxwp5b4d" path="res://scenes/wall_cracked.tscn" id="6_wc5p8"]
+[ext_resource type="PackedScene" uid="uid://ch6qucf4jyhy6" path="res://scenes/wall_corner.tscn" id="7_jsk3o"]
+[ext_resource type="PackedScene" uid="uid://bb2er4wl0r6l3" path="res://scenes/shelved_wall.tscn" id="8_jsk3o"]
+[ext_resource type="PackedScene" uid="uid://dycaftiuexrt7" path="res://scenes/window_closed_wall.tscn" id="9_6iypd"]
+[ext_resource type="PackedScene" uid="uid://cbt6s0yv5ejm2" path="res://scenes/wall_half_endcap.tscn" id="10_tereu"]
+[ext_resource type="PackedScene" uid="uid://birxbsltjcoky" path="res://scenes/maze_floor.tscn" id="11_tereu"]
+[ext_resource type="PackedScene" uid="uid://hmtweabd0uge" path="res://scenes/decoratedbench.tscn" id="13_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://qe7p7oi0kmgi" path="res://scenes/chest.tscn" id="14_tcnuu"]
+[ext_resource type="PackedScene" uid="uid://belfd8rxvr80w" path="res://scenes/t_split_wall.tscn" id="14_tuemg"]
+[ext_resource type="PackedScene" uid="uid://bba45t0cnbtmu" path="res://scenes/ceiling.tscn" id="15_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://jey0uyymn7t3" path="res://scenes/wall_arched.tscn" id="16_ype4i"]
+[ext_resource type="PackedScene" uid="uid://nepssvexvo28" path="res://assests/KayKit_Furniture_Bits_1.0_FREE/Assets/gltf/rug.glb" id="18_i0g27"]
+[ext_resource type="PackedScene" uid="uid://cncode0rm7cba" path="res://scenes/skullcandle.tscn" id="19_3s0n5"]
+[ext_resource type="PackedScene" uid="uid://bjac37wnp4mg7" path="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/gltf/sign.glb" id="19_ealrb"]
+[ext_resource type="PackedScene" uid="uid://cll5vt488w6ev" path="res://scenes/doorway.tscn" id="20_2mu51"]
+[ext_resource type="PackedScene" uid="uid://bhk61xow7k4xq" path="res://scenes/wall_arched_window.tscn" id="21_vmvb8"]
+[ext_resource type="PackedScene" uid="uid://vknefqnnew7j" path="res://scenes/orangepumpkin.tscn" id="24_riyl1"]
+[ext_resource type="PackedScene" uid="uid://5ami1jh10vxe" path="res://scenes/yellowpumpkin.tscn" id="25_pb8dk"]
+[ext_resource type="PackedScene" uid="uid://df01uy2rd1dgb" path="res://scenes/separatebrokenfence.tscn" id="26_2mu51"]
+[ext_resource type="FontFile" uid="uid://bbenhp3m5oi7e" path="res://fonts/KimsBitHand.ttf" id="26_pb8dk"]
+[ext_resource type="PackedScene" uid="uid://buotwu1pjsxik" path="res://scenes/coffin.tscn" id="28_obt1j"]
+[ext_resource type="PackedScene" uid="uid://dts4sm3o73vut" path="res://scenes/torch.tscn" id="29_4i7mf"]
+[ext_resource type="PackedScene" uid="uid://beedqn2b2d0y3" path="res://scenes/candles.tscn" id="30_3s0n5"]
+[ext_resource type="PackedScene" uid="uid://bilvm7ff6ki1c" path="res://scenes/coinstack.tscn" id="31_qpkl4"]
+[ext_resource type="PackedScene" uid="uid://dlubn25uxdxhq" path="res://scenes/banner.tscn" id="32_g4s1x"]
+[ext_resource type="PackedScene" uid="uid://dl4k1enrhx7br" path="res://scenes/yellowjackolantern.tscn" id="32_riyl1"]
+[ext_resource type="PackedScene" uid="uid://c7gi218chmwek" path="res://scenes/skull.tscn" id="32_ype4i"]
+[ext_resource type="PackedScene" uid="uid://cw4d6cioe6pkf" path="res://scenes/standinglantern.tscn" id="34_2mu51"]
+[ext_resource type="PackedScene" uid="uid://04xbhle8aovh" path="res://scenes/shrinecandles.tscn" id="36_3s0n5"]
+[ext_resource type="PackedScene" uid="uid://bu568ipvr6uml" path="res://scenes/stackedcrates.tscn" id="37_qpkl4"]
+[ext_resource type="PackedScene" uid="uid://cuac16iw03383" path="res://scenes/skullpost.tscn" id="38_g4s1x"]
+[ext_resource type="PackedScene" uid="uid://bsrn035vbhwun" path="res://scenes/key.tscn" id="39_qpkl4"]
+[ext_resource type="LightmapGIData" uid="uid://ehtt82fepeof" path="res://lightmaps.lmbake" id="40_g4s1x"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_bmiyr"]
+panorama = ExtResource("1_pb8dk")
+
+[sub_resource type="Sky" id="Sky_a202f"]
+sky_material = SubResource("PanoramaSkyMaterial_bmiyr")
+
+[sub_resource type="Environment" id="Environment_noarx"]
+background_mode = 1
+background_energy_multiplier = 2.5
+sky = SubResource("Sky_a202f")
+ambient_light_sky_contribution = 0.0
+ambient_light_energy = 0.0
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.2804
+volumetric_fog_albedo = Color(0.22897813, 1.8650665e-07, 6.617978e-08, 1)
+volumetric_fog_sky_affect = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_3aoce"]
+transparency = 1
+albedo_color = Color(1, 0.36862746, 1, 0.47058824)
+
+[node name="Main" type="Node3D" unique_id=1090855657]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1729578527]
+environment = SubResource("Environment_noarx")
+
+[node name="Rain_FX_Tutorial" parent="." unique_id=1673407880 instance=ExtResource("2_2mu51")]
+metadata/_edit_lock_ = true
+
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="Rain_FX_Tutorial" unique_id=225182196]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5, 7.3500004, 0.8691397)
+size = Vector3(15.900001, 4.3, 16.096485)
+metadata/_edit_lock_ = true
+
+[node name="GPUParticlesCollisionBox3D2" type="GPUParticlesCollisionBox3D" parent="Rain_FX_Tutorial" unique_id=1908496770]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.600002, 8, 0.42089748)
+size = Vector3(11.900001, 3.4, 10)
+metadata/_edit_lock_ = true
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=418267016]
+transform = Transform3D(1, 0, 0, 0, -0.3420201, 0.93969256, 0, -0.93969256, -0.3420201, 0, 25.814243, -8.14099)
+light_color = Color(0.38464707, 3.9106234e-07, 1.6845763e-07, 1)
+light_energy = 3.676
+light_volumetric_fog_energy = 1.343
+shadow_enabled = true
+shadow_opacity = 0.85
+
+[node name="Player" parent="." unique_id=1496600297 instance=ExtResource("1_a202f")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -29.154032, 0.30571544, 0.28840184)
+input_left = "move_left"
+input_right = "move_right"
+input_forward = "move_up"
+input_back = "move_down"
+input_jump = "jump"
+
+[node name="SpawnRoom" type="Node" parent="." unique_id=1590043494]
+
+[node name="SpawnRoomCeiling" type="Node" parent="SpawnRoom" unique_id=1861207333]
+
+[node name="Ceiling" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1843307361 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -27.266384, 4.374135, 2.5366669)
+
+[node name="Ceiling3" parent="SpawnRoom/SpawnRoomCeiling" unique_id=49284000 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.187265, 4.374135, 2.5366666)
+
+[node name="Ceiling4" parent="SpawnRoom/SpawnRoomCeiling" unique_id=363703045 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -31.187265, 4.374135, -1.3501709)
+
+[node name="Ceiling5" parent="SpawnRoom/SpawnRoomCeiling" unique_id=1448851798 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -33.185234, 4.374135, -1.350171)
+
+[node name="Ceiling6" parent="SpawnRoom/SpawnRoomCeiling" unique_id=90267178 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -33.185234, 4.374135, 1.8201276)
+
+[node name="Ceiling2" parent="SpawnRoom/SpawnRoomCeiling" unique_id=457175770 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -27.266384, 4.374135, -1.3535686)
+
+[node name="SpawnRoomFloor" type="Node" parent="SpawnRoom" unique_id=1993963768]
+
+[node name="WoodFloor" parent="SpawnRoom/SpawnRoomFloor" unique_id=1283440016 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.096933, 0.477, 2.0383189)
+
+[node name="WoodFloor2" parent="SpawnRoom/SpawnRoomFloor" unique_id=2020055478 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.074278, 0.477, 2.0383189)
+
+[node name="WoodFloor3" parent="SpawnRoom/SpawnRoomFloor" unique_id=1940397432 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.074278, 0.477, -1.9324262)
+
+[node name="WoodFloor5" parent="SpawnRoom/SpawnRoomFloor" unique_id=105071697 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.667725, 0.477, -1.9324262)
+
+[node name="WoodFloor6" parent="SpawnRoom/SpawnRoomFloor" unique_id=152075067 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.667725, 0.477, 2.0570898)
+
+[node name="WoodFloor4" parent="SpawnRoom/SpawnRoomFloor" unique_id=267353216 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.108988, 0.477, -1.9324262)
+
+[node name="SpawnRoomWalls" type="Node" parent="SpawnRoom" unique_id=1852024139]
+
+[node name="Door" parent="SpawnRoom/SpawnRoomWalls" unique_id=1321776748 instance=ExtResource("20_2mu51")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25.210001, 0.389, 0.19999997)
+
+[node name="Wall" parent="SpawnRoom/SpawnRoomWalls" unique_id=2033390465 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.238363, 0.389, -3.5461516)
+metadata/_edit_lock_ = true
+
+[node name="WallCracked" parent="SpawnRoom/SpawnRoomWalls" unique_id=775641539 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.209011, 0.389, -3.5439816)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner" parent="SpawnRoom/SpawnRoomWalls" unique_id=1576916268 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -35.202553, 0.389, -3.559918)
+metadata/_edit_lock_ = true
+
+[node name="ShelvedWall" parent="SpawnRoom/SpawnRoomWalls" unique_id=782355169 instance=ExtResource("8_jsk3o")]
+transform = Transform3D(4.4703484e-08, 0, 0.99999994, 0, 1, 0, -0.99999994, 0, 4.4703484e-08, -35.196743, 0.389, 0.5836567)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner2" parent="SpawnRoom/SpawnRoomWalls" unique_id=1867607842 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -35.195107, 0.389, 4.0321546)
+metadata/_edit_lock_ = true
+
+[node name="WindowClosedWall" parent="SpawnRoom/SpawnRoomWalls" unique_id=1138520264 instance=ExtResource("9_6iypd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.218935, 0.389, 4.030572)
+metadata/_edit_lock_ = true
+
+[node name="WallCracked2" parent="SpawnRoom/SpawnRoomWalls" unique_id=2132166879 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.220673, 0.389, 4.020753)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap" parent="SpawnRoom/SpawnRoomWalls" unique_id=1899206795 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.496729, 0.389, 4.068986)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap2" parent="SpawnRoom/SpawnRoomWalls" unique_id=1832185645 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -25.60721, 0.389, -3.6637342)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap3" parent="SpawnRoom/SpawnRoomWalls" unique_id=36997864 instance=ExtResource("10_tereu")]
+transform = Transform3D(-2.1855693e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855693e-07, -35.197212, 0.389, -0.56373596)
+metadata/_edit_lock_ = true
+
+[node name="SpawnRoomDecor" type="Node" parent="SpawnRoom" unique_id=1187865334]
+
+[node name="rug2" parent="SpawnRoom/SpawnRoomDecor" unique_id=859285631 instance=ExtResource("18_i0g27")]
+transform = Transform3D(-1.9893073, 0, 1.7391076e-07, 0, 1.9893073, 0, -1.7391076e-07, 0, -1.9893073, -30.118286, 0.34736356, 0.058878005)
+
+[node name="torch" parent="SpawnRoom/SpawnRoomDecor" unique_id=758748383 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(-4.371139e-08, -0.116092905, -0.99323833, 0, 0.99323833, -0.116092905, 1, -5.074582e-09, -4.3415827e-08, -25.420135, 2.742322, -1.2)
+
+[node name="torch2" parent="SpawnRoom/SpawnRoomDecor" unique_id=1520802654 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.429998, 2.74, 1.6600001)
+
+[node name="decoratedbench" parent="SpawnRoom/SpawnRoomDecor" unique_id=2121755642 instance=ExtResource("13_3v7ru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.379642, 0.31259012, -2.5475998)
+
+[node name="Chest" parent="SpawnRoom/SpawnRoomDecor" unique_id=1707105757 instance=ExtResource("14_tcnuu")]
+transform = Transform3D(0.8660254, 0, 0.5, 0, 1, 0, -0.5, 0, 0.8660254, -33.859516, 0.5125903, -2.0942175)
+
+[node name="lanternpost" parent="SpawnRoom/SpawnRoomDecor" unique_id=727751559 instance=ExtResource("4_2mu51")]
+transform = Transform3D(-0.6427876, 0, 0.7660445, 0, 1, 0, -0.7660445, 0, -0.6427876, -34.45907, 0.3, 3.236203)
+
+[node name="candles" parent="SpawnRoom/SpawnRoomDecor" unique_id=1049325757 instance=ExtResource("30_3s0n5")]
+transform = Transform3D(0.89363265, 0, -0.4487992, 0, 1, 0, 0.4487992, 0, 0.89363265, -26.521645, 0.39999992, -2.845184)
+
+[node name="skullcandle" parent="SpawnRoom/SpawnRoomDecor" unique_id=92541628 instance=ExtResource("19_3s0n5")]
+transform = Transform3D(-0.5203622, 0, -0.3004311, 0, 0.6008625, 0, 0.3004311, 0, -0.5203622, -30.78201, 1.6352715, 3.878949)
+
+[node name="SurfaceMazeFloor" type="Node" parent="." unique_id=1251480881]
+
+[node name="MazeFloor" parent="SurfaceMazeFloor" unique_id=1243762849 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 0.31081975)
+
+[node name="MazeFloor8" parent="SurfaceMazeFloor" unique_id=672345031 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -3.4798055)
+
+[node name="MazeFloor9" parent="SurfaceMazeFloor" unique_id=831773261 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -7.265479)
+
+[node name="MazeFloor10" parent="SurfaceMazeFloor" unique_id=1465421144 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -11.05514)
+
+[node name="MazeFloor11" parent="SurfaceMazeFloor" unique_id=339394448 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -14.844047)
+
+[node name="MazeFloor12" parent="SurfaceMazeFloor" unique_id=2116133586 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -18.62801)
+
+[node name="MazeFloor13" parent="SurfaceMazeFloor" unique_id=648455847 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, -22.418436)
+
+[node name="MazeFloor14" parent="SurfaceMazeFloor" unique_id=1562894353 instance=ExtResource("11_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -23.165737, 0.477, -23.073223)
+
+[node name="MazeFloor2" parent="SurfaceMazeFloor" unique_id=1064168505 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 4.100842)
+
+[node name="MazeFloor3" parent="SurfaceMazeFloor" unique_id=933519907 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 7.8967853)
+
+[node name="MazeFloor4" parent="SurfaceMazeFloor" unique_id=1427548953 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 11.6891985)
+
+[node name="MazeFloor5" parent="SurfaceMazeFloor" unique_id=863040316 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 15.482695)
+
+[node name="MazeFloor6" parent="SurfaceMazeFloor" unique_id=865898190 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 19.262522)
+
+[node name="MazeFloor7" parent="SurfaceMazeFloor" unique_id=1886066507 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.165737, 0.477, 21.54548)
+
+[node name="MazeFloor15" parent="SurfaceMazeFloor" unique_id=661353684 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 21.54548)
+
+[node name="MazeFloor28" parent="SurfaceMazeFloor" unique_id=1824174004 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 17.809254)
+
+[node name="MazeFloor29" parent="SurfaceMazeFloor" unique_id=587269478 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 14.057247)
+
+[node name="MazeFloor30" parent="SurfaceMazeFloor" unique_id=1490958174 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 10.328697)
+
+[node name="MazeFloor31" parent="SurfaceMazeFloor" unique_id=1568485561 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 6.575905)
+
+[node name="MazeFloor32" parent="SurfaceMazeFloor" unique_id=543887390 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, 2.7934422)
+
+[node name="MazeFloor33" parent="SurfaceMazeFloor" unique_id=727633310 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -0.9633279)
+
+[node name="MazeFloor34" parent="SurfaceMazeFloor" unique_id=1272224077 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -4.71062)
+
+[node name="MazeFloor35" parent="SurfaceMazeFloor" unique_id=1760363413 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -8.470169)
+
+[node name="MazeFloor36" parent="SurfaceMazeFloor" unique_id=612663372 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -12.216614)
+
+[node name="MazeFloor37" parent="SurfaceMazeFloor" unique_id=507203471 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -15.963191)
+
+[node name="MazeFloor38" parent="SurfaceMazeFloor" unique_id=64954825 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -19.674717)
+
+[node name="MazeFloor39" parent="SurfaceMazeFloor" unique_id=1133737175 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.399666, 0.477, -23.087784)
+
+[node name="MazeFloor40" parent="SurfaceMazeFloor" unique_id=1995547013 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -23.087784)
+
+[node name="MazeFloor41" parent="SurfaceMazeFloor" unique_id=1372015643 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -19.325834)
+
+[node name="MazeFloor42" parent="SurfaceMazeFloor" unique_id=569486096 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -15.540014)
+
+[node name="MazeFloor43" parent="SurfaceMazeFloor" unique_id=1352633104 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -11.77123)
+
+[node name="MazeFloor44" parent="SurfaceMazeFloor" unique_id=1813555519 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -7.976179)
+
+[node name="MazeFloor45" parent="SurfaceMazeFloor" unique_id=2069624986 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -4.2004976)
+
+[node name="MazeFloor46" parent="SurfaceMazeFloor" unique_id=964109586 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, -0.43377924)
+
+[node name="MazeFloor47" parent="SurfaceMazeFloor" unique_id=1019140659 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, 3.3347335)
+
+[node name="MazeFloor48" parent="SurfaceMazeFloor" unique_id=874413098 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, 7.1220593)
+
+[node name="MazeFloor49" parent="SurfaceMazeFloor" unique_id=74427379 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, 10.898581)
+
+[node name="MazeFloor50" parent="SurfaceMazeFloor" unique_id=1835329189 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.621222, 0.477, 14.683685)
+
+[node name="MazeFloor51" parent="SurfaceMazeFloor" unique_id=256822556 instance=ExtResource("11_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -15.621222, 0.477, 18.093765)
+
+[node name="MazeFloor16" parent="SurfaceMazeFloor" unique_id=409317445 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.607045, 0.477, 21.54548)
+
+[node name="MazeFloor17" parent="SurfaceMazeFloor" unique_id=1553021867 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.81061, 0.477, 21.54548)
+
+[node name="MazeFloor52" parent="SurfaceMazeFloor" unique_id=1645457867 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, 17.81212)
+
+[node name="MazeFloor53" parent="SurfaceMazeFloor" unique_id=674239058 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, 14.039201)
+
+[node name="MazeFloor54" parent="SurfaceMazeFloor" unique_id=1755574398 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, 10.345614)
+
+[node name="MazeFloor55" parent="SurfaceMazeFloor" unique_id=1162506435 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, 6.6324015)
+
+[node name="MazeFloor56" parent="SurfaceMazeFloor" unique_id=146538711 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, 2.8820965)
+
+[node name="MazeFloor57" parent="SurfaceMazeFloor" unique_id=1711362734 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -0.8756335)
+
+[node name="MazeFloor58" parent="SurfaceMazeFloor" unique_id=2113907155 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -4.569536)
+
+[node name="MazeFloor59" parent="SurfaceMazeFloor" unique_id=1341625483 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -8.27819)
+
+[node name="MazeFloor60" parent="SurfaceMazeFloor" unique_id=79895347 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -12.011136)
+
+[node name="MazeFloor61" parent="SurfaceMazeFloor" unique_id=2120658635 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -15.771031)
+
+[node name="MazeFloor62" parent="SurfaceMazeFloor" unique_id=622090720 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -19.541351)
+
+[node name="MazeFloor63" parent="SurfaceMazeFloor" unique_id=998976445 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.827742, 0.477, -23.09257)
+
+[node name="MazeFloor64" parent="SurfaceMazeFloor" unique_id=1357448615 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1028805, 0.477, -23.09257)
+
+[node name="MazeFloor92" parent="SurfaceMazeFloor" unique_id=674420320 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5775414, 0.477, -23.09257)
+
+[node name="MazeFloor93" parent="SurfaceMazeFloor" unique_id=2136945030 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5775414, 0.477, -19.425077)
+
+[node name="MazeFloor94" parent="SurfaceMazeFloor" unique_id=1883348398 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5775414, 0.477, -15.675528)
+
+[node name="MazeFloor95" parent="SurfaceMazeFloor" unique_id=844146907 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5775414, 0.477, -12.063542)
+
+[node name="MazeFloor96" parent="SurfaceMazeFloor" unique_id=831632144 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5775414, 0.477, -8.883862)
+
+[node name="MazeFloor97" parent="SurfaceMazeFloor" unique_id=1731266095 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93206644, 0.477, -8.883862)
+
+[node name="MazeFloor102" parent="SurfaceMazeFloor" unique_id=259056636 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6073623, 0.477, -8.883862)
+
+[node name="MazeFloor107" parent="SurfaceMazeFloor" unique_id=156306304 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9087877, 0.477, -8.883862)
+
+[node name="MazeFloor108" parent="SurfaceMazeFloor" unique_id=460351808 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9087877, 0.477, -12.467591)
+
+[node name="MazeFloor109" parent="SurfaceMazeFloor" unique_id=1383002088 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9087877, 0.477, -16.130138)
+
+[node name="MazeFloor110" parent="SurfaceMazeFloor" unique_id=69222167 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9087877, 0.477, -19.80433)
+
+[node name="MazeFloor111" parent="SurfaceMazeFloor" unique_id=1237260317 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.9087877, 0.477, -23.144573)
+
+[node name="MazeFloor103" parent="SurfaceMazeFloor" unique_id=306228425 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6073623, 0.477, -12.487499)
+
+[node name="MazeFloor104" parent="SurfaceMazeFloor" unique_id=1302108431 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6073623, 0.477, -16.113506)
+
+[node name="MazeFloor105" parent="SurfaceMazeFloor" unique_id=1928342547 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6073623, 0.477, -19.798967)
+
+[node name="MazeFloor106" parent="SurfaceMazeFloor" unique_id=235116070 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6073623, 0.477, -23.130753)
+
+[node name="MazeFloor98" parent="SurfaceMazeFloor" unique_id=549596589 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93206644, 0.477, -12.637465)
+
+[node name="MazeFloor99" parent="SurfaceMazeFloor" unique_id=1030427798 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93206644, 0.477, -16.282501)
+
+[node name="MazeFloor100" parent="SurfaceMazeFloor" unique_id=630971784 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93206644, 0.477, -19.903784)
+
+[node name="MazeFloor101" parent="SurfaceMazeFloor" unique_id=539188715 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.93206644, 0.477, -23.106258)
+
+[node name="MazeFloor65" parent="SurfaceMazeFloor" unique_id=390744918 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1028805, 0.477, -19.373512)
+
+[node name="MazeFloor66" parent="SurfaceMazeFloor" unique_id=1914932459 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1028805, 0.477, -15.689729)
+
+[node name="MazeFloor67" parent="SurfaceMazeFloor" unique_id=1739569349 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1028805, 0.477, -12.001843)
+
+[node name="MazeFloor68" parent="SurfaceMazeFloor" unique_id=372459146 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.1028805, 0.477, -8.429516)
+
+[node name="MazeFloor69" parent="SurfaceMazeFloor" unique_id=439849308 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.238029, 0.477, -4.7418475)
+
+[node name="MazeFloor70" parent="SurfaceMazeFloor" unique_id=273267264 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.238029, 0.477, -1.112247)
+
+[node name="MazeFloor71" parent="SurfaceMazeFloor" unique_id=764496512 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.238029, 0.477, 2.5533848)
+
+[node name="MazeFloor72" parent="SurfaceMazeFloor" unique_id=482487833 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.238029, 0.477, 6.234255)
+
+[node name="MazeFloor73" parent="SurfaceMazeFloor" unique_id=989628211 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.044048, 0.477, 9.968771)
+
+[node name="MazeFloor74" parent="SurfaceMazeFloor" unique_id=1949995864 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.044048, 0.477, 13.628492)
+
+[node name="MazeFloor75" parent="SurfaceMazeFloor" unique_id=1542478676 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.044048, 0.477, 17.313477)
+
+[node name="MazeFloor76" parent="SurfaceMazeFloor" unique_id=796140892 instance=ExtResource("11_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -8.044048, 0.477, 19.221977)
+
+[node name="MazeFloor18" parent="SurfaceMazeFloor" unique_id=895585133 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.04084, 0.477, 21.54548)
+
+[node name="MazeFloor19" parent="SurfaceMazeFloor" unique_id=434858401 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2717614, 0.477, 21.54548)
+
+[node name="MazeFloor77" parent="SurfaceMazeFloor" unique_id=1281390905 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2717614, 0.477, 17.827133)
+
+[node name="MazeFloor78" parent="SurfaceMazeFloor" unique_id=568990300 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2717614, 0.477, 14.15358)
+
+[node name="MazeFloor79" parent="SurfaceMazeFloor" unique_id=1493339709 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2717614, 0.477, 10.811651)
+
+[node name="MazeFloor20" parent="SurfaceMazeFloor" unique_id=916517448 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4970069, 0.477, 21.54548)
+
+[node name="MazeFloor80" parent="SurfaceMazeFloor" unique_id=1856711307 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4970069, 0.477, 17.771437)
+
+[node name="MazeFloor81" parent="SurfaceMazeFloor" unique_id=52495333 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4970069, 0.477, 14.02241)
+
+[node name="MazeFloor82" parent="SurfaceMazeFloor" unique_id=2002812014 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4970069, 0.477, 10.7604065)
+
+[node name="MazeFloor21" parent="SurfaceMazeFloor" unique_id=308139006 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.291224, 0.477, 17.769238)
+
+[node name="MazeFloor84" parent="SurfaceMazeFloor" unique_id=1971762060 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.291224, 0.477, 14.053743)
+
+[node name="MazeFloor85" parent="SurfaceMazeFloor" unique_id=2140085964 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.291224, 0.477, 10.694259)
+
+[node name="MazeFloor83" parent="SurfaceMazeFloor" unique_id=1228781321 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.291224, 0.477, 21.54548)
+
+[node name="MazeFloor22" parent="SurfaceMazeFloor" unique_id=870061344 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.072296, 0.477, 21.54548)
+
+[node name="MazeFloor86" parent="SurfaceMazeFloor" unique_id=599624248 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.072296, 0.477, 17.811821)
+
+[node name="MazeFloor87" parent="SurfaceMazeFloor" unique_id=884344882 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.072296, 0.477, 14.118305)
+
+[node name="MazeFloor88" parent="SurfaceMazeFloor" unique_id=1055500236 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.072296, 0.477, 10.800356)
+
+[node name="MazeFloor23" parent="SurfaceMazeFloor" unique_id=1258257666 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846399, 0.477, 21.54548)
+
+[node name="MazeFloor89" parent="SurfaceMazeFloor" unique_id=1262749652 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846399, 0.477, 17.876635)
+
+[node name="MazeFloor90" parent="SurfaceMazeFloor" unique_id=1195536387 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846399, 0.477, 14.306494)
+
+[node name="MazeFloor91" parent="SurfaceMazeFloor" unique_id=1333028586 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846399, 0.477, 10.667539)
+
+[node name="MazeFloor112" parent="SurfaceMazeFloor" unique_id=1376599385 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846399, 0.477, 6.9077435)
+
+[node name="MazeFloor113" parent="SurfaceMazeFloor" unique_id=2039657967 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.514694, 0.477, 6.9077435)
+
+[node name="MazeFloor114" parent="SurfaceMazeFloor" unique_id=1736798899 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.947874, 0.477, 3.2244396)
+
+[node name="MazeFloor115" parent="SurfaceMazeFloor" unique_id=1724290822 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.947874, 0.477, -0.41154027)
+
+[node name="MazeFloor116" parent="SurfaceMazeFloor" unique_id=581525713 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.947874, 0.477, -4.1607323)
+
+[node name="MazeFloor117" parent="SurfaceMazeFloor" unique_id=1449847471 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.549243, 0.477, -7.904836)
+
+[node name="MazeFloor118" parent="SurfaceMazeFloor" unique_id=130398963 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.549243, 0.477, -11.624998)
+
+[node name="MazeFloor119" parent="SurfaceMazeFloor" unique_id=977878107 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.549243, 0.477, -15.412561)
+
+[node name="MazeFloor120" parent="SurfaceMazeFloor" unique_id=379838796 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.549243, 0.477, -19.166765)
+
+[node name="MazeFloor121" parent="SurfaceMazeFloor" unique_id=2028092313 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.549243, 0.477, -22.853167)
+
+[node name="MazeFloor24" parent="SurfaceMazeFloor" unique_id=1697488603 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 21.54548)
+
+[node name="MazeFloor122" parent="SurfaceMazeFloor" unique_id=101282479 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 17.897383)
+
+[node name="MazeFloor123" parent="SurfaceMazeFloor" unique_id=825635423 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 14.12829)
+
+[node name="MazeFloor124" parent="SurfaceMazeFloor" unique_id=1101727278 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 10.355305)
+
+[node name="MazeFloor125" parent="SurfaceMazeFloor" unique_id=1674403539 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 6.572776)
+
+[node name="MazeFloor126" parent="SurfaceMazeFloor" unique_id=1702164933 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, 2.8607588)
+
+[node name="MazeFloor127" parent="SurfaceMazeFloor" unique_id=1616036438 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -0.87434864)
+
+[node name="MazeFloor128" parent="SurfaceMazeFloor" unique_id=1075606186 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -4.591363)
+
+[node name="MazeFloor129" parent="SurfaceMazeFloor" unique_id=2028934655 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -8.365982)
+
+[node name="MazeFloor130" parent="SurfaceMazeFloor" unique_id=758421041 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -12.063183)
+
+[node name="MazeFloor131" parent="SurfaceMazeFloor" unique_id=638151843 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -15.819246)
+
+[node name="MazeFloor132" parent="SurfaceMazeFloor" unique_id=1405264449 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -19.566067)
+
+[node name="MazeFloor133" parent="SurfaceMazeFloor" unique_id=203952709 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.618854, 0.477, -23.234426)
+
+[node name="MazeFloor134" parent="SurfaceMazeFloor" unique_id=1601313393 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -23.234426)
+
+[node name="MazeFloor135" parent="SurfaceMazeFloor" unique_id=1817435842 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -19.665232)
+
+[node name="MazeFloor136" parent="SurfaceMazeFloor" unique_id=1577485045 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -15.986591)
+
+[node name="MazeFloor137" parent="SurfaceMazeFloor" unique_id=921913336 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -12.423405)
+
+[node name="MazeFloor138" parent="SurfaceMazeFloor" unique_id=864489432 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -8.773792)
+
+[node name="MazeFloor139" parent="SurfaceMazeFloor" unique_id=1361166226 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -5.330216)
+
+[node name="MazeFloor140" parent="SurfaceMazeFloor" unique_id=1138451603 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, -1.7373402)
+
+[node name="MazeFloor141" parent="SurfaceMazeFloor" unique_id=1768005194 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, 1.9227455)
+
+[node name="MazeFloor142" parent="SurfaceMazeFloor" unique_id=991645109 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.249133, 0.477, 4.393464)
+
+[node name="MazeFloor25" parent="SurfaceMazeFloor" unique_id=971584047 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 21.54548)
+
+[node name="MazeFloor143" parent="SurfaceMazeFloor" unique_id=560600203 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 17.888868)
+
+[node name="MazeFloor144" parent="SurfaceMazeFloor" unique_id=616448442 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 14.196093)
+
+[node name="MazeFloor145" parent="SurfaceMazeFloor" unique_id=732640774 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 10.487117)
+
+[node name="MazeFloor146" parent="SurfaceMazeFloor" unique_id=701488690 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 6.7855043)
+
+[node name="MazeFloor147" parent="SurfaceMazeFloor" unique_id=1749242022 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, 3.0117521)
+
+[node name="MazeFloor148" parent="SurfaceMazeFloor" unique_id=1328310828 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -0.7680268)
+
+[node name="MazeFloor149" parent="SurfaceMazeFloor" unique_id=813155839 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -4.495035)
+
+[node name="MazeFloor150" parent="SurfaceMazeFloor" unique_id=2057277265 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -8.284617)
+
+[node name="MazeFloor151" parent="SurfaceMazeFloor" unique_id=1590350930 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -12.038546)
+
+[node name="MazeFloor152" parent="SurfaceMazeFloor" unique_id=96845566 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -15.800152)
+
+[node name="MazeFloor153" parent="SurfaceMazeFloor" unique_id=843181943 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -19.515366)
+
+[node name="MazeFloor154" parent="SurfaceMazeFloor" unique_id=242867272 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.399342, 0.477, -23.224352)
+
+[node name="MazeFloor26" parent="SurfaceMazeFloor" unique_id=1686609581 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.91925, 0.477, 21.54548)
+
+[node name="MazeFloor155" parent="SurfaceMazeFloor" unique_id=1368672310 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, 17.793148)
+
+[node name="MazeFloor156" parent="SurfaceMazeFloor" unique_id=395688866 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, 14.086536)
+
+[node name="MazeFloor157" parent="SurfaceMazeFloor" unique_id=1564206023 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, 10.350382)
+
+[node name="MazeFloor158" parent="SurfaceMazeFloor" unique_id=1031659523 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, 6.613699)
+
+[node name="MazeFloor159" parent="SurfaceMazeFloor" unique_id=771746641 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, 2.8471088)
+
+[node name="MazeFloor160" parent="SurfaceMazeFloor" unique_id=1368206863 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -0.8812175)
+
+[node name="MazeFloor161" parent="SurfaceMazeFloor" unique_id=71162715 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -4.635036)
+
+[node name="MazeFloor162" parent="SurfaceMazeFloor" unique_id=149591999 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -8.380302)
+
+[node name="MazeFloor163" parent="SurfaceMazeFloor" unique_id=1432365447 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -12.119963)
+
+[node name="MazeFloor164" parent="SurfaceMazeFloor" unique_id=1041324152 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -15.899681)
+
+[node name="MazeFloor165" parent="SurfaceMazeFloor" unique_id=1229845273 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -19.662039)
+
+[node name="MazeFloor166" parent="SurfaceMazeFloor" unique_id=1362558472 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.161242, 0.477, -23.21546)
+
+[node name="MazeFloor167" parent="SurfaceMazeFloor" unique_id=349703682 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -23.21546)
+
+[node name="MazeFloor168" parent="SurfaceMazeFloor" unique_id=156704733 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -19.483696)
+
+[node name="MazeFloor169" parent="SurfaceMazeFloor" unique_id=1164759507 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -15.725889)
+
+[node name="MazeFloor170" parent="SurfaceMazeFloor" unique_id=2130922234 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -11.990477)
+
+[node name="MazeFloor171" parent="SurfaceMazeFloor" unique_id=876147867 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -8.236385)
+
+[node name="MazeFloor172" parent="SurfaceMazeFloor" unique_id=1338992595 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -4.483552)
+
+[node name="MazeFloor173" parent="SurfaceMazeFloor" unique_id=1012427018 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, -0.74838614)
+
+[node name="MazeFloor174" parent="SurfaceMazeFloor" unique_id=645127287 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, 3.0353086)
+
+[node name="MazeFloor175" parent="SurfaceMazeFloor" unique_id=691506153 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, 6.784775)
+
+[node name="MazeFloor176" parent="SurfaceMazeFloor" unique_id=2139811505 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, 10.549791)
+
+[node name="MazeFloor177" parent="SurfaceMazeFloor" unique_id=1480246899 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, 14.280491)
+
+[node name="MazeFloor178" parent="SurfaceMazeFloor" unique_id=1763739036 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.100565, 0.477, 17.95733)
+
+[node name="MazeFloor27" parent="SurfaceMazeFloor" unique_id=1899245738 instance=ExtResource("11_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.123808, 0.477, 21.54548)
+
+[node name="SurfaceMaze" type="Node" parent="." unique_id=504709344]
+
+[node name="Wall3" parent="SurfaceMaze" unique_id=1453883924 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.016752, 0.38931084, 18.320175)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall8" parent="SurfaceMaze" unique_id=954998715 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.029807, 0.336267, 14.500141)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall9" parent="SurfaceMaze" unique_id=230753120 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.0928326, 0.336267, 14.500141)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall10" parent="SurfaceMaze" unique_id=624975310 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.029807, 0.336267, 14.500141)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall11" parent="SurfaceMaze" unique_id=927455217 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10.4403715, 0.38931084, 10.018565)
+metadata/_edit_lock_ = true
+
+[node name="Wall4" parent="SurfaceMaze" unique_id=1244020326 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.316751, 0.38931084, 20.720175)
+metadata/_edit_lock_ = true
+
+[node name="Wall5" parent="SurfaceMaze" unique_id=264733467 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3167515, 0.38931084, 20.720175)
+metadata/_edit_lock_ = true
+
+[node name="Wall7" parent="SurfaceMaze" unique_id=1669106191 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.45781, 0.38931084, 16.853443)
+metadata/_edit_lock_ = true
+
+[node name="Wall8" parent="SurfaceMaze" unique_id=1104973104 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -13.472721, 0.38931084, 18.523155)
+metadata/_edit_lock_ = true
+
+[node name="Wall6" parent="SurfaceMaze" unique_id=564329608 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3167515, 0.38931084, 20.720175)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap" parent="SurfaceMaze" unique_id=589273508 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.039574, 0.38931084, 18.318811)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap2" parent="SurfaceMaze" unique_id=1333866854 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -22.239574, 0.38931084, 20.718811)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap3" parent="SurfaceMaze" unique_id=762044141 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -7.339574, 0.38931084, 20.718813)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner" parent="SurfaceMaze" unique_id=163593180 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.7, 0.3, 1.6999999)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner11" parent="SurfaceMaze" unique_id=1199717657 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -20.368382, 0.2545913, 1.6455272)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner12" parent="SurfaceMaze" unique_id=449731726 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -17.911228, 0.2545913, 4.41218)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner13" parent="SurfaceMaze" unique_id=549957651 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -15.696327, 0.2545913, 4.41218)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner14" parent="SurfaceMaze" unique_id=493574428 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, -12.962886, 0.2545913, -2.5779152)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner4" parent="SurfaceMaze" unique_id=70568824 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -20.400002, 0.3, -1.2364755)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner15" parent="SurfaceMaze" unique_id=1406962963 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -21.804628, 0.23346096, -10.848267)
+metadata/_edit_lock_ = true
+
+[node name="Wall" parent="SurfaceMaze" unique_id=886640559 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -22.7, 0.30000007, 5.7000003)
+metadata/_edit_lock_ = true
+
+[node name="Wall2" parent="SurfaceMaze" unique_id=996883793 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -22.7, 0.30000007, 9.700001)
+metadata/_edit_lock_ = true
+
+[node name="Wall12" parent="SurfaceMaze" unique_id=982584714 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -20.378622, 0.30000007, 8.608595)
+metadata/_edit_lock_ = true
+
+[node name="Wall22" parent="SurfaceMaze" unique_id=1335712743 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -18.285553, 0.4282893, 9.714542)
+metadata/_edit_lock_ = true
+
+[node name="Wall13" parent="SurfaceMaze" unique_id=1004749605 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -20.378622, 0.30000007, 4.6300616)
+metadata/_edit_lock_ = true
+
+[node name="Wall9" parent="SurfaceMaze" unique_id=1638392815 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -22.7, 0.30000007, 12.300001)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner2" parent="SurfaceMaze" unique_id=947567290 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -22.699999, 0.3, 14.9)
+metadata/_edit_lock_ = true
+
+[node name="WallCracked" parent="SurfaceMaze" unique_id=586088006 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.7, 0.3, 14.9)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner3" parent="SurfaceMaze" unique_id=1029367089 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4, 0.3, 14.900001)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner17" parent="SurfaceMaze" unique_id=841932475 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -18.288416, 0.44021636, 12.321439)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner18" parent="SurfaceMaze" unique_id=1271228703 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -18.288416, 0.4152978, 7.511157)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner7" parent="SurfaceMaze" unique_id=1039898674 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -13.473077, 0.40305167, 14.616149)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner16" parent="SurfaceMaze" unique_id=774033449 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.460108, 0.40305167, 7.5263805)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner8" parent="SurfaceMaze" unique_id=910317337 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.456808, 0.40305167, 14.616149)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap4" parent="SurfaceMaze" unique_id=1286672009 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -16.4, 0.3, 18.9)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall" parent="SurfaceMaze" unique_id=752320819 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25.599998, 0.3, -8.235617)
+metadata/_edit_lock_ = true
+
+[node name="Wall10" parent="SurfaceMaze" unique_id=905996261 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.6, 0.3, -8.237601)
+metadata/_edit_lock_ = true
+
+[node name="Wall11" parent="SurfaceMaze" unique_id=272405496 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.300001, 0.3, -3.8376012)
+metadata/_edit_lock_ = true
+
+[node name="Wall14" parent="SurfaceMaze" unique_id=568508539 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.100002, 0.3, -1.237601)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap5" parent="SurfaceMaze" unique_id=1461172306 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -22.800001, 0.3, -6.0000005)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap49" parent="SurfaceMaze" unique_id=747734792 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -25.600002, 0.3, 1.6999997)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap50" parent="SurfaceMaze" unique_id=1418561376 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -25.600002, 0.3, -1.2400002)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap6" parent="SurfaceMaze" unique_id=1245362231 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.304626, 0.33277655, -21.84812)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap7" parent="SurfaceMaze" unique_id=917776080 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -19.300905, 0.23829317, -13.0809145)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap10" parent="SurfaceMaze" unique_id=2131033792 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -16.546228, 0.23829317, -14.409952)
+metadata/_edit_lock_ = true
+
+[node name="Wall15" parent="SurfaceMaze" unique_id=897566893 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.8461947, 0.2975974, -23.367306)
+metadata/_edit_lock_ = true
+
+[node name="Wall23" parent="SurfaceMaze" unique_id=708354586 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2.949889, 0.2975974, -18.103643)
+metadata/_edit_lock_ = true
+
+[node name="Wall25" parent="SurfaceMaze" unique_id=421176918 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.65497214, 0.24591208, -17.32816)
+metadata/_edit_lock_ = true
+
+[node name="Wall26" parent="SurfaceMaze" unique_id=207903660 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.8331864, 0.2975974, -17.6861)
+metadata/_edit_lock_ = true
+
+[node name="Wall27" parent="SurfaceMaze" unique_id=1206718918 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.8331863, 0.22993755, -15.086078)
+metadata/_edit_lock_ = true
+
+[node name="Wall24" parent="SurfaceMaze" unique_id=2002210463 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.35163713, 0.2975974, -21.650816)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner5" parent="SurfaceMaze" unique_id=887159050 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.3016977, 0.3323984, 14.233504)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner10" parent="SurfaceMaze" unique_id=1902095453 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.0266142, 0.3323984, 12.0165615)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner9" parent="SurfaceMaze" unique_id=1099566047 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.0321789, 0.3323984, 17.125584)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner6" parent="SurfaceMaze" unique_id=1625218439 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.9703217, 0.3323984, 17.13459)
+metadata/_edit_lock_ = true
+
+[node name="Wall16" parent="SurfaceMaze" unique_id=950084486 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.418974, 0.32897425, 21.254614)
+metadata/_edit_lock_ = true
+
+[node name="Wall28" parent="SurfaceMaze" unique_id=1050086086 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.7539635, 0.32897425, 21.830393)
+metadata/_edit_lock_ = true
+
+[node name="Wall31" parent="SurfaceMaze" unique_id=516305404 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 8.809999, 0.32897425, 21.830393)
+metadata/_edit_lock_ = true
+
+[node name="Wall32" parent="SurfaceMaze" unique_id=1808485468 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 6.0969963, 0.32897425, 21.110785)
+metadata/_edit_lock_ = true
+
+[node name="Wall36" parent="SurfaceMaze" unique_id=847841364 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 1.4407649, 0.22897425, 10.129003)
+metadata/_edit_lock_ = true
+
+[node name="Wall37" parent="SurfaceMaze" unique_id=1092220908 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 2.9076521, 0.23897424, 11.847835)
+metadata/_edit_lock_ = true
+
+[node name="Wall33" parent="SurfaceMaze" unique_id=1494960467 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 6.0969963, 0.32897425, 17.201155)
+metadata/_edit_lock_ = true
+
+[node name="Wall29" parent="SurfaceMaze" unique_id=632402587 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 0.030570984, 0.32897425, 20.110151)
+metadata/_edit_lock_ = true
+
+[node name="Wall34" parent="SurfaceMaze" unique_id=96050958 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.1007566, 0.32897425, 17.087223)
+metadata/_edit_lock_ = true
+
+[node name="Wall38" parent="SurfaceMaze" unique_id=1996388538 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.757202, 0.32897425, 12.78237)
+metadata/_edit_lock_ = true
+
+[node name="Wall51" parent="SurfaceMaze" unique_id=432409270 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.757203, 0.23575592, 6.671032)
+metadata/_edit_lock_ = true
+
+[node name="Wall55" parent="SurfaceMaze" unique_id=165816898 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.757204, 0.23575592, -0.6553354)
+metadata/_edit_lock_ = true
+
+[node name="Wall57" parent="SurfaceMaze" unique_id=487146038 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 9.757204, 0.23575592, -3.8472838)
+metadata/_edit_lock_ = true
+
+[node name="Wall58" parent="SurfaceMaze" unique_id=139822972 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.40582, 0.23575592, -3.8472836)
+metadata/_edit_lock_ = true
+
+[node name="Wall59" parent="SurfaceMaze" unique_id=1796313752 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 15.201228, 0.23575592, -2.3426921)
+metadata/_edit_lock_ = true
+
+[node name="Wall60" parent="SurfaceMaze" unique_id=494737808 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 17.753841, 0.23575592, 0.915833)
+metadata/_edit_lock_ = true
+
+[node name="Wall61" parent="SurfaceMaze" unique_id=1190853761 instance=ExtResource("5_jka67")]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 19.937784, 0.23575592, 0.9158335)
+metadata/_edit_lock_ = true
+
+[node name="Wall56" parent="SurfaceMaze" unique_id=1834117417 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 12.450374, 0.23575592, 2.1285758)
+metadata/_edit_lock_ = true
+
+[node name="Wall64" parent="SurfaceMaze" unique_id=139931264 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, 3.350375, 0.23575592, -6.6714263)
+metadata/_edit_lock_ = true
+
+[node name="Wall65" parent="SurfaceMaze" unique_id=1573356444 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, 5.150375, 0.23575592, -6.6714263)
+metadata/_edit_lock_ = true
+
+[node name="Wall66" parent="SurfaceMaze" unique_id=758536088 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, -4.649625, 0.23575592, -6.6714272)
+metadata/_edit_lock_ = true
+
+[node name="Wall52" parent="SurfaceMaze" unique_id=1185106481 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.360358, 0.24094343, 6.6710324)
+metadata/_edit_lock_ = true
+
+[node name="Wall53" parent="SurfaceMaze" unique_id=1544145797 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 15.050938, 0.24873257, 8.179433)
+metadata/_edit_lock_ = true
+
+[node name="Wall54" parent="SurfaceMaze" unique_id=838013843 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 15.050938, 0.23272109, 5.140888)
+metadata/_edit_lock_ = true
+
+[node name="Wall41" parent="SurfaceMaze" unique_id=1872571514 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 13.420946, 0.32897425, 14.636832)
+metadata/_edit_lock_ = true
+
+[node name="Wall42" parent="SurfaceMaze" unique_id=1000817146 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 11.909181, 0.32897425, 18.525715)
+metadata/_edit_lock_ = true
+
+[node name="Wall43" parent="SurfaceMaze" unique_id=2109181604 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 13.662517, 0.32897425, 17.04218)
+metadata/_edit_lock_ = true
+
+[node name="Wall45" parent="SurfaceMaze" unique_id=1304968149 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 14.048048, 0.32897425, 20.063673)
+metadata/_edit_lock_ = true
+
+[node name="Wall46" parent="SurfaceMaze" unique_id=1681386053 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 17.907763, 0.32897425, 20.063673)
+metadata/_edit_lock_ = true
+
+[node name="Wall47" parent="SurfaceMaze" unique_id=1612568810 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 21.699224, 0.32897425, 20.063673)
+metadata/_edit_lock_ = true
+
+[node name="Wall44" parent="SurfaceMaze" unique_id=1609575553 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 17.594997, 0.32897425, 17.04218)
+metadata/_edit_lock_ = true
+
+[node name="Wall48" parent="SurfaceMaze" unique_id=1869553147 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 20.535162, 0.24306774, 14.366353)
+metadata/_edit_lock_ = true
+
+[node name="Wall49" parent="SurfaceMaze" unique_id=1476290721 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 21.238474, 0.24306774, 11.605237)
+metadata/_edit_lock_ = true
+
+[node name="Wall50" parent="SurfaceMaze" unique_id=1017399178 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 20.65959, 0.24306774, 8.799684)
+metadata/_edit_lock_ = true
+
+[node name="Wall39" parent="SurfaceMaze" unique_id=720312591 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 11.930093, 0.32897425, 11.012153)
+metadata/_edit_lock_ = true
+
+[node name="Wall40" parent="SurfaceMaze" unique_id=1641764178 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 11.930093, 0.32897425, 12.884998)
+metadata/_edit_lock_ = true
+
+[node name="Wall30" parent="SurfaceMaze" unique_id=344909401 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 2.0979872, 0.32897425, 20.110151)
+metadata/_edit_lock_ = true
+
+[node name="Wall35" parent="SurfaceMaze" unique_id=1028585575 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.2033553, 0.32897425, 17.07711)
+metadata/_edit_lock_ = true
+
+[node name="Wall17" parent="SurfaceMaze" unique_id=1318278705 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.418974, 0.32897425, 16.248938)
+metadata/_edit_lock_ = true
+
+[node name="Wall18" parent="SurfaceMaze" unique_id=1102477533 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -5.418974, 0.32897425, 19.085964)
+metadata/_edit_lock_ = true
+
+[node name="Wall19" parent="SurfaceMaze" unique_id=811072665 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -10.449801, 0.4015398, 12.823144)
+metadata/_edit_lock_ = true
+
+[node name="Wall20" parent="SurfaceMaze" unique_id=1190229794 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -12.595532, 0.4015398, 10.025634)
+metadata/_edit_lock_ = true
+
+[node name="Wall21" parent="SurfaceMaze" unique_id=12410526 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -14.710069, 0.45239735, 12.319443)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall2" parent="SurfaceMaze" unique_id=40213416 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.422047, 0.34296227, 17.125319)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap8" parent="SurfaceMaze" unique_id=939270232 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.451676, 0.32559395, 14.238599)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap18" parent="SurfaceMaze" unique_id=1619195858 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.9814126, 0.24559394, 11.858435)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap19" parent="SurfaceMaze" unique_id=1659626589 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.491387, 0.24559395, 10.372292)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap27" parent="SurfaceMaze" unique_id=394822367 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.291386, 0.22559394, 8.412292)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap20" parent="SurfaceMaze" unique_id=2053578561 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.937227, 0.32559395, 17.042278)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap21" parent="SurfaceMaze" unique_id=1057480569 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 22.452085, 0.32559395, 17.042278)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap25" parent="SurfaceMaze" unique_id=918062857 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 14.922106, 0.32559395, 14.467611)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap26" parent="SurfaceMaze" unique_id=2100915782 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 14.922106, 0.32559395, 15.192759)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap23" parent="SurfaceMaze" unique_id=737635730 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.263931, 0.32559395, 20.068071)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap24" parent="SurfaceMaze" unique_id=1032988901 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 18.877153, 0.32559395, 21.655642)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap22" parent="SurfaceMaze" unique_id=1625386121 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.776892, 0.32559395, 17.042278)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap14" parent="SurfaceMaze" unique_id=145345945 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -3.5439901, 0.32559395, 20.091526)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap15" parent="SurfaceMaze" unique_id=362319680 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.823494, 0.32559395, 18.838003)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap16" parent="SurfaceMaze" unique_id=766153032 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.204442, 0.32559395, 14.50792)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap17" parent="SurfaceMaze" unique_id=803995497 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.63359594, 0.32559395, 17.065119)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall3" parent="SurfaceMaze" unique_id=1370715060 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -17.923235, 0.23853064, 1.6317716)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall4" parent="SurfaceMaze" unique_id=1010317897 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -15.710297, 0.23853064, -2.5653658)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall7" parent="SurfaceMaze" unique_id=1787414290 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -10.517473, 0.23853064, -9.346775)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall5" parent="SurfaceMaze" unique_id=570058575 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, -8.640843, 0.23853064, -19.153193)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap11" parent="SurfaceMaze" unique_id=1141995194 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.561523, 0.41386414, 10.036574)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap13" parent="SurfaceMaze" unique_id=663801468 instance=ExtResource("10_tereu")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -13.484292, 0.39662552, -0.21012926)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap12" parent="SurfaceMaze" unique_id=37680930 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -17.059362, 0.41386414, 7.5031724)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall6" parent="SurfaceMaze" unique_id=68710847 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -13.483526, 0.39724255, 7.500901)
+metadata/_edit_lock_ = true
+
+[node name="Wall62" parent="SurfaceMaze" unique_id=874707549 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.1924095, 0.3442824, 12.017225)
+metadata/_edit_lock_ = true
+
+[node name="Wall63" parent="SurfaceMaze" unique_id=580115219 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3935095, 0.3287058, 14.504444)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall12" parent="SurfaceMaze" unique_id=2006429470 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.824493, 0.23980331, -10.851454)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall13" parent="SurfaceMaze" unique_id=435044006 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -19.317793, 0.23980331, -16.155178)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap28" parent="SurfaceMaze" unique_id=1385850396 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.2000003, 0.2389969, -19.150593)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap29" parent="SurfaceMaze" unique_id=1270468673 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.040862, 0.25628653, -13.538952)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap30" parent="SurfaceMaze" unique_id=1409880665 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.4548457, 0.24065778, -16.886074)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap31" parent="SurfaceMaze" unique_id=194776458 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 5.153935, 0.24065778, -18.867884)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap32" parent="SurfaceMaze" unique_id=1051294486 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 9.889343, 0.24065778, -15.943599)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap33" parent="SurfaceMaze" unique_id=74454473 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 12.834604, 0.24065778, -15.499265)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap34" parent="SurfaceMaze" unique_id=727968114 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 16.116312, 0.24065778, -14.311637)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap35" parent="SurfaceMaze" unique_id=25338047 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.893792, 0.24065778, -11.821702)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner19" parent="SurfaceMaze" unique_id=250037521 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -21.802652, 0.22325498, -19.564201)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner20" parent="SurfaceMaze" unique_id=706254762 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.324947, 0.22325498, -19.564201)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner21" parent="SurfaceMaze" unique_id=189347899 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.629549, 0.2631572, -21.632442)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner22" parent="SurfaceMaze" unique_id=1290714668 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -2.949178, 0.29793292, -21.647572)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner23" parent="SurfaceMaze" unique_id=1323134658 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8380189, 0.29793292, -21.654358)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner24" parent="SurfaceMaze" unique_id=1536990037 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.1648736, 0.23496658, -21.6825)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner25" parent="SurfaceMaze" unique_id=1368421919 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 9.894132, 0.23496658, -19.006178)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner26" parent="SurfaceMaze" unique_id=444421982 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 18.44414, 0.23496658, -18.992678)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner27" parent="SurfaceMaze" unique_id=1736171975 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, 15.576982, 0.23496658, -16.485577)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner28" parent="SurfaceMaze" unique_id=1007941516 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, 18.364805, 0.23496658, -8.578254)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner29" parent="SurfaceMaze" unique_id=1238277871 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, -1.1920928e-07, 0, 1, 0, 1.1920928e-07, 0, 1, 24.765457, 0.23496658, -6.2518044)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner30" parent="SurfaceMaze" unique_id=1516804944 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1.6292067e-07, 0, -1, 0, 1, 0, 1, 0, -1.6292067e-07, 24.765455, 0.23496658, 11.595081)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner31" parent="SurfaceMaze" unique_id=442485504 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(7.5497894e-08, 0, 1, 0, 1, 0, -1, 0, 7.5497894e-08, 17.304714, 0.23496658, 11.59508)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner32" parent="SurfaceMaze" unique_id=259728741 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, 17.509617, 0.23496658, 8.804916)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner33" parent="SurfaceMaze" unique_id=215218727 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, -1.1920928e-07, 0, 1, 0, 1.1920928e-07, 0, 1, 12.459987, 0.23496658, -0.6526091)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner34" parent="SurfaceMaze" unique_id=2138592339 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, -1.1920928e-07, 0, 1, 0, 1.1920928e-07, 0, 1, -7.1100125, 0.23496658, -7.362612)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner35" parent="SurfaceMaze" unique_id=1782821239 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, 15.207216, 0.23496658, 0.9178243)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner36" parent="SurfaceMaze" unique_id=1077450909 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, 17.304714, 0.23496658, 14.364119)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner37" parent="SurfaceMaze" unique_id=1372617672 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, -1.1920928e-07, 0, 1, 0, 1.1920928e-07, 0, 1, 18.368208, 0.23496658, -16.485577)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner38" parent="SurfaceMaze" unique_id=2112657224 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.44414, 0.23496658, -21.686348)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner39" parent="SurfaceMaze" unique_id=467885534 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -16.539883, 0.24656087, -21.632442)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner40" parent="SurfaceMaze" unique_id=1009965910 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -16.539883, 0.24656087, -13.542912)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner41" parent="SurfaceMaze" unique_id=2060077268 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -8.499874, 0.24656087, -13.58319)
+metadata/_edit_lock_ = true
+
+[node name="WallCorner42" parent="SurfaceMaze" unique_id=883415056 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, -3.1786506e-08, 0, 1, 0, 3.1786506e-08, 0, -1, 0.40906912, 0.24656087, -11.836213)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap36" parent="SurfaceMaze" unique_id=785400260 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 15.2525425, 0.24065778, -11.821702)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap37" parent="SurfaceMaze" unique_id=622904818 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 10.245578, 0.2798929, -8.714247)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap38" parent="SurfaceMaze" unique_id=1777142574 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 20.950731, 0.24065778, 6.394151)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap39" parent="SurfaceMaze" unique_id=185963864 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 19.506077, 0.24065778, 6.394151)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap40" parent="SurfaceMaze" unique_id=1776811883 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 15.059521, 0.24938819, 11.506826)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap41" parent="SurfaceMaze" unique_id=1509956093 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -2.6226832e-07, 0, 1, 0, 2.6226832e-07, 0, -1, 14.559095, 0.23592755, 3.077388)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap42" parent="SurfaceMaze" unique_id=1727524570 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 1.7484554e-07, 0, 1, 0, -1.7484554e-07, 0, 1, 18.02375, 0.24282405, 3.0773873)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap43" parent="SurfaceMaze" unique_id=1286589041 instance=ExtResource("10_tereu")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 20.115225, 0.22219893, -12.479258)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap44" parent="SurfaceMaze" unique_id=491216480 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 17.665205, 0.26505467, -0.86947346)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap45" parent="SurfaceMaze" unique_id=1478765118 instance=ExtResource("10_tereu")]
+transform = Transform3D(-2.1855693e-07, 0, 1, 0, 1, 0, -1, 0, -2.1855693e-07, 19.915909, 0.26505467, -2.164062)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap46" parent="SurfaceMaze" unique_id=688374970 instance=ExtResource("10_tereu")]
+transform = Transform3D(1.3113416e-07, 0, -1, 0, 1, 0, 1, 0, 1.3113416e-07, 19.93811, 0.26505467, 3.9430807)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap47" parent="SurfaceMaze" unique_id=1997019573 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 9.88444, 0.24499127, 3.356631)
+metadata/_edit_lock_ = true
+
+[node name="WallHalfEndcap48" parent="SurfaceMaze" unique_id=1699713629 instance=ExtResource("10_tereu")]
+transform = Transform3D(1, 0, 1.7484555e-07, 0, 1, 0, -1.7484555e-07, 0, 1, 22.990898, 0.24065778, -14.56055)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall14" parent="SurfaceMaze" unique_id=6723038 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -0.6494546, 0.24563551, -13.579575)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall15" parent="SurfaceMaze" unique_id=606802862 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.44267, 0.24563551, -14.265012)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall16" parent="SurfaceMaze" unique_id=2070357172 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.4426703, 0.24563551, -16.881456)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall17" parent="SurfaceMaze" unique_id=485912545 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.834096, 0.24563551, -19.020031)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall18" parent="SurfaceMaze" unique_id=928667083 instance=ExtResource("14_tuemg")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 12.834096, 0.24563551, -14.314575)
+metadata/_edit_lock_ = true
+
+[node name="TSplitWall19" parent="SurfaceMaze" unique_id=1488668366 instance=ExtResource("14_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.574142, 0.24563551, -19.020031)
+metadata/_edit_lock_ = true
+
+[node name="Wall84" parent="SurfaceMaze" unique_id=1882364131 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 23.46994, 0.33413887, -17.691837)
+metadata/_edit_lock_ = true
+
+[node name="Wall86" parent="SurfaceMaze" unique_id=478779102 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 19.869957, 0.23323584, -14.563408)
+metadata/_edit_lock_ = true
+
+[node name="Wall87" parent="SurfaceMaze" unique_id=420390172 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 18.36775, 0.23323584, -12.462455)
+metadata/_edit_lock_ = true
+
+[node name="Wall88" parent="SurfaceMaze" unique_id=1481656956 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 22.45485, 0.23323584, -10.972306)
+metadata/_edit_lock_ = true
+
+[node name="Wall89" parent="SurfaceMaze" unique_id=1371787172 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 22.45485, 0.23323584, -7.070778)
+metadata/_edit_lock_ = true
+
+[node name="Wall90" parent="SurfaceMaze" unique_id=391593836 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 22.45485, 0.23323584, -3.138308)
+metadata/_edit_lock_ = true
+
+[node name="Wall93" parent="SurfaceMaze" unique_id=1590414844 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 24.765203, 0.23323584, -2.3569324)
+metadata/_edit_lock_ = true
+
+[node name="Wall94" parent="SurfaceMaze" unique_id=1903141607 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 24.765203, 0.23323584, 1.6387084)
+metadata/_edit_lock_ = true
+
+[node name="Wall95" parent="SurfaceMaze" unique_id=461850649 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 24.765203, 0.23323584, 5.568022)
+metadata/_edit_lock_ = true
+
+[node name="Wall96" parent="SurfaceMaze" unique_id=1470146262 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 24.765203, 0.23323584, 8.041248)
+metadata/_edit_lock_ = true
+
+[node name="Wall91" parent="SurfaceMaze" unique_id=2048781180 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 22.45485, 0.23323584, 0.7721257)
+metadata/_edit_lock_ = true
+
+[node name="Wall92" parent="SurfaceMaze" unique_id=1157343028 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 22.45485, 0.23323584, 4.622201)
+metadata/_edit_lock_ = true
+
+[node name="Wall100" parent="SurfaceMaze" unique_id=1456401944 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 17.5147, 0.23323584, 4.976083)
+metadata/_edit_lock_ = true
+
+[node name="Wall85" parent="SurfaceMaze" unique_id=1187051580 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 11.457129, 0.26365995, -11.831205)
+metadata/_edit_lock_ = true
+
+[node name="Wall101" parent="SurfaceMaze" unique_id=2079586273 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.195614, 0.26365995, -8.71549)
+metadata/_edit_lock_ = true
+
+[node name="Wall102" parent="SurfaceMaze" unique_id=1256068496 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 18.110542, 0.26365995, -6.285727)
+metadata/_edit_lock_ = true
+
+[node name="Wall103" parent="SurfaceMaze" unique_id=694209194 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 14.198744, 0.26365995, -6.2857275)
+metadata/_edit_lock_ = true
+
+[node name="Wall104" parent="SurfaceMaze" unique_id=1229733578 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 12.032742, 0.26365995, -6.982832)
+metadata/_edit_lock_ = true
+
+[node name="Wall106" parent="SurfaceMaze" unique_id=528206506 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 12.032742, 0.26365995, -5.355789)
+metadata/_edit_lock_ = true
+
+[node name="Wall105" parent="SurfaceMaze" unique_id=1871303953 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 17.674442, 0.26365995, -4.2368345)
+metadata/_edit_lock_ = true
+
+[node name="Wall97" parent="SurfaceMaze" unique_id=288411063 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 7.7352962, 0.26120198, -11.834447)
+metadata/_edit_lock_ = true
+
+[node name="Wall99" parent="SurfaceMaze" unique_id=2040230755 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.435632, 0.26120198, -9.765008)
+metadata/_edit_lock_ = true
+
+[node name="Wall107" parent="SurfaceMaze" unique_id=1006727225 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 7.435632, 0.26120198, -8.265008)
+metadata/_edit_lock_ = true
+
+[node name="Wall98" parent="SurfaceMaze" unique_id=436819196 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 3.9727864, 0.27957058, -11.82883)
+metadata/_edit_lock_ = true
+
+[node name="Wall67" parent="SurfaceMaze" unique_id=1444117836 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -15.711149, 0.2486577, -6.542774)
+metadata/_edit_lock_ = true
+
+[node name="Wall68" parent="SurfaceMaze" unique_id=1302795691 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -17.924784, 0.24277782, -2.2600322)
+metadata/_edit_lock_ = true
+
+[node name="Wall69" parent="SurfaceMaze" unique_id=1145766132 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -17.814905, 0.24277782, -7.838757)
+metadata/_edit_lock_ = true
+
+[node name="Wall70" parent="SurfaceMaze" unique_id=1245444094 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -15.712967, 0.24277782, 1.2141228)
+metadata/_edit_lock_ = true
+
+[node name="Wall71" parent="SurfaceMaze" unique_id=638206876 instance=ExtResource("5_jka67")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -9.36019, 0.24277782, 5.102005)
+metadata/_edit_lock_ = true
+
+[node name="Wall72" parent="SurfaceMaze" unique_id=1283948472 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -13.491465, 0.39556932, 3.6448336)
+metadata/_edit_lock_ = true
+
+[node name="Wall73" parent="SurfaceMaze" unique_id=1150809639 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -10.671439, 0.29395103, 0.5002935)
+metadata/_edit_lock_ = true
+
+[node name="Wall74" parent="SurfaceMaze" unique_id=833756497 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -10.671438, 0.27783442, -3.2522223)
+metadata/_edit_lock_ = true
+
+[node name="Wall75" parent="SurfaceMaze" unique_id=1649624161 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -12.959431, 0.2626691, -5.5601826)
+metadata/_edit_lock_ = true
+
+[node name="Wall76" parent="SurfaceMaze" unique_id=1326396125 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -9.1787615, 0.22740456, -5.0591893)
+metadata/_edit_lock_ = true
+
+[node name="Wall77" parent="SurfaceMaze" unique_id=594973542 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -11.378689, 0.26685762, -7.3278375)
+metadata/_edit_lock_ = true
+
+[node name="Wall78" parent="SurfaceMaze" unique_id=804684704 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -10.106914, 0.24187776, -7.3278375)
+metadata/_edit_lock_ = true
+
+[node name="Wall79" parent="SurfaceMaze" unique_id=494489103 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -6.57685, 0.2433939, -9.3512945)
+metadata/_edit_lock_ = true
+
+[node name="Wall80" parent="SurfaceMaze" unique_id=849761525 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -3.7136033, 0.2433939, -9.3512945)
+metadata/_edit_lock_ = true
+
+[node name="Wall81" parent="SurfaceMaze" unique_id=1619009839 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 0.20095181, 0.2433939, -9.351294)
+metadata/_edit_lock_ = true
+
+[node name="Wall82" parent="SurfaceMaze" unique_id=1336519184 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 2.3467553, 0.2433939, -9.351294)
+metadata/_edit_lock_ = true
+
+[node name="Wall83" parent="SurfaceMaze" unique_id=618182619 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -4.535394, 0.2433939, -13.578224)
+metadata/_edit_lock_ = true
+
+[node name="Wall108" parent="SurfaceMaze" unique_id=1620778077 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 4.060277, 0.2433939, -14.262913)
+metadata/_edit_lock_ = true
+
+[node name="Wall109" parent="SurfaceMaze" unique_id=1333540591 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 9.16293, 0.23583078, -21.693611)
+metadata/_edit_lock_ = true
+
+[node name="Wall110" parent="SurfaceMaze" unique_id=1601040070 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 12.727615, 0.23583078, -21.693611)
+metadata/_edit_lock_ = true
+
+[node name="Wall111" parent="SurfaceMaze" unique_id=1102322257 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, 16.586742, 0.23583078, -21.693611)
+metadata/_edit_lock_ = true
+
+[node name="Wall112" parent="SurfaceMaze" unique_id=1010428562 instance=ExtResource("5_jka67")]
+transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, 11.32509, 0.23583078, -23.197456)
+metadata/_edit_lock_ = true
+
+[node name="Wall113" parent="SurfaceMaze" unique_id=1430039037 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -21.80977, 0.22392035, -14.836971)
+metadata/_edit_lock_ = true
+
+[node name="Wall114" parent="SurfaceMaze" unique_id=1563475297 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -21.80977, 0.22392035, -17.135874)
+metadata/_edit_lock_ = true
+
+[node name="Wall115" parent="SurfaceMaze" unique_id=901151586 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.648542, 0.25859094, -21.621511)
+metadata/_edit_lock_ = true
+
+[node name="Wall116" parent="SurfaceMaze" unique_id=1050660169 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.458933, 0.23229194, -19.155172)
+metadata/_edit_lock_ = true
+
+[node name="Wall117" parent="SurfaceMaze" unique_id=1006870532 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.5918255, 0.23229194, -16.161917)
+metadata/_edit_lock_ = true
+
+[node name="Wall118" parent="SurfaceMaze" unique_id=2064905168 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.577365, 0.23229194, -16.161917)
+metadata/_edit_lock_ = true
+
+[node name="Wall119" parent="SurfaceMaze" unique_id=1764320008 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.409216, 0.26290822, -13.556031)
+metadata/_edit_lock_ = true
+
+[node name="Wall120" parent="SurfaceMaze" unique_id=215702014 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.389702, 0.23229194, -16.161917)
+metadata/_edit_lock_ = true
+
+[node name="Wall121" parent="SurfaceMaze" unique_id=39406869 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -16.545752, 0.23229194, -18.361973)
+metadata/_edit_lock_ = true
+
+[node name="Wall122" parent="SurfaceMaze" unique_id=1801811478 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 21.83999, 0.3044157, -22.970785)
+metadata/_edit_lock_ = true
+
+[node name="Wall123" parent="SurfaceMaze" unique_id=68031567 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.266226, 0.33437324, -21.854132)
+metadata/_edit_lock_ = true
+
+[node name="Wall124" parent="SurfaceMaze" unique_id=816895186 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -20.395296, 0.29411364, -4.3257265)
+metadata/_edit_lock_ = true
+
+[node name="SurfaceMazeBorder" type="Node" parent="." unique_id=484270883]
+
+[node name="Wall6" parent="SurfaceMazeBorder" unique_id=660308545 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.49825, 0.389, 23.430037)
+
+[node name="Wall7" parent="SurfaceMazeBorder" unique_id=9536103 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.513868, 0.389, 23.430037)
+
+[node name="Wall8" parent="SurfaceMazeBorder" unique_id=362089445 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.523293, 0.389, 23.430037)
+
+[node name="Wall9" parent="SurfaceMazeBorder" unique_id=1898280514 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.538822, 0.389, 23.430037)
+
+[node name="Wall10" parent="SurfaceMazeBorder" unique_id=437316487 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.55703, 0.389, 23.430037)
+
+[node name="Wall11" parent="SurfaceMazeBorder" unique_id=1847324367 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5748422, 0.389, 23.430037)
+
+[node name="Wall12" parent="SurfaceMazeBorder" unique_id=697268524 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.42357, 0.389, 23.430037)
+
+[node name="Wall13" parent="SurfaceMazeBorder" unique_id=12108670 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.415655, 0.389, 23.430037)
+
+[node name="Wall14" parent="SurfaceMazeBorder" unique_id=336947520 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.406612, 0.389, 23.430037)
+
+[node name="Wall15" parent="SurfaceMazeBorder" unique_id=1601671807 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.388555, 0.389, 23.430037)
+
+[node name="Wall16" parent="SurfaceMazeBorder" unique_id=761812656 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.370235, 0.389, 23.430037)
+
+[node name="Wall17" parent="SurfaceMazeBorder" unique_id=678243971 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.35823, 0.389, 23.430037)
+
+[node name="WallCorner2" parent="SurfaceMazeBorder" unique_id=1327536379 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.539547, 0.389, 23.42829)
+
+[node name="Wall18" parent="SurfaceMazeBorder" unique_id=2104303878 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, 19.46831)
+
+[node name="Wall19" parent="SurfaceMazeBorder" unique_id=75256833 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, 15.478106)
+
+[node name="Wall20" parent="SurfaceMazeBorder" unique_id=463804601 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, 11.505813)
+
+[node name="Wall21" parent="SurfaceMazeBorder" unique_id=807756861 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, 7.5337715)
+
+[node name="Wall22" parent="SurfaceMazeBorder" unique_id=1431491188 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, 3.5337715)
+
+[node name="Wall23" parent="SurfaceMazeBorder" unique_id=1749756692 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -0.4662285)
+
+[node name="Wall24" parent="SurfaceMazeBorder" unique_id=212670041 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -4.4662285)
+
+[node name="Wall25" parent="SurfaceMazeBorder" unique_id=189673957 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -8.4662285)
+
+[node name="Wall26" parent="SurfaceMazeBorder" unique_id=68301107 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -12.4662285)
+
+[node name="Wall27" parent="SurfaceMazeBorder" unique_id=248279123 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -16.466228)
+
+[node name="Wall28" parent="SurfaceMazeBorder" unique_id=661443825 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -20.466228)
+
+[node name="Wall29" parent="SurfaceMazeBorder" unique_id=722723613 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 25.533773, 0.389, -24.466228)
+
+[node name="Wall30" parent="SurfaceMazeBorder" unique_id=1381403013 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.633774, 0.389, -25.194565)
+
+[node name="Wall31" parent="SurfaceMazeBorder" unique_id=1040572935 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.633774, 0.389, -25.194565)
+
+[node name="Wall32" parent="SurfaceMazeBorder" unique_id=546524567 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.633774, 0.389, -25.194565)
+
+[node name="Wall33" parent="SurfaceMazeBorder" unique_id=138154065 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.633774, 0.389, -25.194565)
+
+[node name="Wall34" parent="SurfaceMazeBorder" unique_id=881884753 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.633774, 0.389, -25.194565)
+
+[node name="Wall35" parent="SurfaceMazeBorder" unique_id=887396556 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6337738, 0.389, -25.194565)
+
+[node name="Wall36" parent="SurfaceMazeBorder" unique_id=972091629 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.3662262, 0.389, -25.194565)
+
+[node name="Wall37" parent="SurfaceMazeBorder" unique_id=1088656291 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.366226, 0.389, -25.194565)
+
+[node name="Wall38" parent="SurfaceMazeBorder" unique_id=1253114152 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.366226, 0.389, -25.194565)
+
+[node name="Wall39" parent="SurfaceMazeBorder" unique_id=255819344 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.366226, 0.389, -25.194565)
+
+[node name="Wall40" parent="SurfaceMazeBorder" unique_id=1089796505 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.366226, 0.389, -25.194565)
+
+[node name="Wall41" parent="SurfaceMazeBorder" unique_id=687884661 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.366226, 0.389, -25.194565)
+
+[node name="WallCorner3" parent="SurfaceMazeBorder" unique_id=1091059586 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.6, 0.389, -25.2)
+
+[node name="WallCorner4" parent="SurfaceMazeBorder" unique_id=1295422896 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -25.7, 0.389, -25.2)
+
+[node name="Wall" parent="SurfaceMazeBorder" unique_id=33359132 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.495295, 0.389, 6.074274)
+
+[node name="Wall42" parent="SurfaceMazeBorder" unique_id=1794601084 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -4.9257264)
+
+[node name="Wall43" parent="SurfaceMazeBorder" unique_id=1444317738 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -8.925726)
+
+[node name="Wall44" parent="SurfaceMazeBorder" unique_id=700640532 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -12.925726)
+
+[node name="Wall45" parent="SurfaceMazeBorder" unique_id=1849609846 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -16.925726)
+
+[node name="Wall46" parent="SurfaceMazeBorder" unique_id=656778550 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -20.925726)
+
+[node name="Wall47" parent="SurfaceMazeBorder" unique_id=1331022679 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.595295, 0.389, -23.425726)
+
+[node name="Wall2" parent="SurfaceMazeBorder" unique_id=421041845 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.495295, 0.389, 10.027454)
+
+[node name="Wall4" parent="SurfaceMazeBorder" unique_id=745597061 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.495295, 0.389, 17.909893)
+
+[node name="Wall5" parent="SurfaceMazeBorder" unique_id=1831961029 instance=ExtResource("5_jka67")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.495295, 0.389, 21.831903)
+
+[node name="WallCracked" parent="SurfaceMazeBorder" unique_id=1706415435 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -25.497448, 0.389, 13.93352)
+
+[node name="WallCorner" parent="SurfaceMazeBorder" unique_id=2047229826 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -25.490374, 0.389, 23.43041)
+
+[node name="Castle Structure" type="Node" parent="." unique_id=1420683573]
+
+[node name="Ceiling15" parent="Castle Structure" unique_id=519009686 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.8336172, 3.774135, 6.036668)
+
+[node name="Ceiling16" parent="Castle Structure" unique_id=1318625434 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.8336174, 3.774135, 2.0366678)
+
+[node name="Ceiling17" parent="Castle Structure" unique_id=1791000277 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.8336177, 3.774135, -1.9633322)
+
+[node name="Ceiling18" parent="Castle Structure" unique_id=1574596060 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 2.833618, 3.774135, -5.0633326)
+
+[node name="Ceiling19" parent="Castle Structure" unique_id=559381073 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.833618, 3.774135, -5.0633326)
+
+[node name="Ceiling20" parent="Castle Structure" unique_id=1630246208 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.833618, 3.774135, -1.9633324)
+
+[node name="Ceiling21" parent="Castle Structure" unique_id=1774135961 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.833618, 3.774135, 2.0366676)
+
+[node name="Ceiling22" parent="Castle Structure" unique_id=714387020 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 5.833618, 3.774135, 6.036668)
+
+[node name="Ceiling12" parent="Castle Structure" unique_id=1841546133 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.0663828, 3.774135, 2.0366678)
+
+[node name="Ceiling13" parent="Castle Structure" unique_id=561256747 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.0663826, 3.774135, -1.9633323)
+
+[node name="Ceiling14" parent="Castle Structure" unique_id=972950567 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.0663825, 3.774135, -5.0633326)
+
+[node name="Ceiling8" parent="Castle Structure" unique_id=357643384 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.966383, 3.774135, 2.0366678)
+
+[node name="Ceiling9" parent="Castle Structure" unique_id=1333213025 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.966383, 3.774135, -1.9633322)
+
+[node name="Ceiling10" parent="Castle Structure" unique_id=17225733 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.966383, 3.774135, -5.0633326)
+
+[node name="Ceiling11" parent="Castle Structure" unique_id=1167610990 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -1.0663829, 3.774135, 6.036668)
+
+[node name="Ceiling7" parent="Castle Structure" unique_id=1473063929 instance=ExtResource("15_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -4.966383, 3.774135, 6.036668)
+
+[node name="WallArched2" parent="Castle Structure" unique_id=1757699894 instance=ExtResource("16_ype4i")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.447224, 0.389, 5.3)
+
+[node name="WallArched" parent="Castle Structure" unique_id=389799627 instance=ExtResource("16_ype4i")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 7.4472246, 0.389, -2.7)
+
+[node name="WallCorner28" parent="Castle Structure" unique_id=138024274 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1, 0, -1.1920928e-07, 0, 1, 0, 1.1920928e-07, 0, 1, 7.4499874, 0.389, -6.67261)
+
+[node name="WallCorner29" parent="Castle Structure" unique_id=1020773215 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(-1, 0, 3.1786506e-08, 0, 1, 0, -3.1786506e-08, 0, -1, -7.1100135, 0.389, 8.427388)
+
+[node name="WallCorner31" parent="Castle Structure" unique_id=139729671 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(7.5497894e-08, 0, 1, 0, 1, 0, -1, 0, 7.5497894e-08, -7.1100125, 0.389, -6.662612)
+
+[node name="WallCorner30" parent="Castle Structure" unique_id=534484378 instance=ExtResource("7_jsk3o")]
+transform = Transform3D(1.1924882e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924882e-08, 7.4899864, 0.389, 8.427388)
+
+[node name="WoodFloor" parent="Castle Structure" unique_id=2020589289 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.6000004, 0.389, 8)
+
+[node name="WoodFloor5" parent="Castle Structure" unique_id=1841084067 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.5999999, 0.389, 3.1)
+
+[node name="WoodFloor10" parent="Castle Structure" unique_id=299881867 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.6000004, 0.389, -2.9000006)
+
+[node name="WoodFloor7" parent="Castle Structure" unique_id=1570389421 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.3999996, 0.389, 7.1999993)
+
+[node name="WoodFloor8" parent="Castle Structure" unique_id=1688997102 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.3999996, 0.389, 3.2000003)
+
+[node name="WoodFloor12" parent="Castle Structure" unique_id=862681734 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 7.3999996, 0.389, 3.1999998)
+
+[node name="WoodFloor17" parent="Castle Structure" unique_id=491230822 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 7.3999996, 0.389, 7.2)
+
+[node name="WoodFloor9" parent="Castle Structure" unique_id=644629870 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 2.9, 0.389, -0.79999924)
+
+[node name="WoodFloor14" parent="Castle Structure" unique_id=558996096 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 3.3999996, 0.389, -4.8)
+
+[node name="WoodFloor15" parent="Castle Structure" unique_id=1637771653 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 7.3999987, 0.389, -4.8)
+
+[node name="WoodFloor16" parent="Castle Structure" unique_id=1885274981 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 6.8999996, 0.389, -0.80000114)
+
+[node name="WoodFloor2" parent="Castle Structure" unique_id=371113737 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -3.1, 0.389, 0)
+
+[node name="WoodFloor6" parent="Castle Structure" unique_id=1366945539 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.1000004, 0.389, 0)
+
+[node name="WoodFloor13" parent="Castle Structure" unique_id=396658787 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.6, 0.389, 4)
+
+[node name="WoodFloor19" parent="Castle Structure" unique_id=83031666 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -8.6, 0.389, 4)
+
+[node name="WoodFloor20" parent="Castle Structure" unique_id=1604216004 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -8.6, 0.389, 8)
+
+[node name="WoodFloor3" parent="Castle Structure" unique_id=586756325 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.5999994, 0.389, 7.1000004)
+
+[node name="WoodFloor4" parent="Castle Structure" unique_id=781018678 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.6000004, 0.389, -4)
+
+[node name="WoodFloor11" parent="Castle Structure" unique_id=681349031 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.5999999, 0.389, -6.8999996)
+
+[node name="WoodFloor18" parent="Castle Structure" unique_id=1404511743 instance=ExtResource("4_r3fl7")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -4.6, 0.389, -7.9999995)
+
+[node name="Door" parent="Castle Structure" unique_id=1916694906 instance=ExtResource("20_2mu51")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 7.448819, 0.389, 1.3)
+
+[node name="WallArchedWindow" parent="Castle Structure" unique_id=304642149 instance=ExtResource("21_vmvb8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6592911, 0.389, -6.6745625)
+
+[node name="WallArchedWindow2" parent="Castle Structure" unique_id=250370032 instance=ExtResource("21_vmvb8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -7.1, 0.389, 1.2)
+
+[node name="WallCracked" parent="Castle Structure" unique_id=874568605 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -7.1, 0.389, 5.2000003)
+
+[node name="WallCracked2" parent="Castle Structure" unique_id=1304252672 instance=ExtResource("6_wc5p8")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -7.1000004, 0.389, -2.7999997)
+
+[node name="ShelvedWall" parent="Castle Structure" unique_id=1336717272 instance=ExtResource("8_jsk3o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 3.1999998, 0.389, 8.4)
+
+[node name="ShelvedWall2" parent="Castle Structure" unique_id=1370062649 instance=ExtResource("8_jsk3o")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.8000002, 0.389, 8.4)
+
+[node name="Wall" parent="Castle Structure" unique_id=301079438 instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.8, 0.389, 8.400001)
+
+[node name="Castle Interior" type="Node" parent="." unique_id=213941367]
+
+[node name="coffin" parent="Castle Interior" unique_id=868543835 instance=ExtResource("28_obt1j")]
+transform = Transform3D(0.6663793, 0.7356051, 0.12175248, -0.011345811, 0.17327693, -0.9848078, -0.74552655, 0.6548742, 0.1238142, -6.3371525, 1.8030387, -5.668672)
+
+[node name="lanternpost" parent="Castle Interior" unique_id=648507576 instance=ExtResource("4_2mu51")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 1.2789125, 0, 8.200001)
+
+[node name="torch" parent="Castle Interior" unique_id=1438630890 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(-4.371139e-08, 0.116092905, 0.99323833, 0, 0.99323833, -0.116092905, -1, -5.074582e-09, -4.3415827e-08, -6.9284096, 2.1430032, 3.1039526)
+
+[node name="torch3" parent="Castle Interior" unique_id=76742421 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(1.3054304e-07, 0.11609291, -0.99323833, -1.0149165e-08, 0.99323845, 0.116092905, 1, -5.074584e-09, 1.308386e-07, 7.230525, 1.9982727, 2.9039521)
+
+[node name="torch4" parent="Castle Interior" unique_id=497060361 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(1.3054304e-07, 0.11609291, -0.99323833, -1.0149165e-08, 0.99323845, 0.116092905, 1, -5.074584e-09, 1.308386e-07, 7.2305245, 1.9982727, -0.29604793)
+
+[node name="torch2" parent="Castle Interior" unique_id=462809296 instance=ExtResource("29_4i7mf")]
+transform = Transform3D(-4.371139e-08, 0.116092905, 0.99323833, 0, 0.99323833, -0.116092905, -1, -5.074582e-09, -4.3415827e-08, -6.9284096, 2.1430032, -0.66604733)
+
+[node name="candles" parent="Castle Interior" unique_id=1504846480 instance=ExtResource("30_3s0n5")]
+transform = Transform3D(0.6893654, 0, 0.12155373, 0, 0.7, 0, -0.12155373, 0, 0.6893654, 0.08378162, 1.3100001, -6.4033566)
+
+[node name="decoratedbench" parent="Castle Interior" unique_id=987425282 instance=ExtResource("13_3v7ru")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 6.5500007, 0.4, -2.7)
+
+[node name="coinstack" parent="Castle Interior" unique_id=1136893834 instance=ExtResource("31_qpkl4")]
+transform = Transform3D(0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, -5.2819996, 1.306, 7.3)
+
+[node name="banner" parent="Castle Interior" unique_id=1892360116 instance=ExtResource("32_g4s1x")]
+transform = Transform3D(9.179391e-08, 0, -0.7, 0, 0.7, 0, 0.7, 0, 9.179391e-08, 7.416001, 0.61, 6.9769993)
+
+[node name="Chest" parent="Castle Interior" unique_id=890054181 instance=ExtResource("14_tcnuu")]
+transform = Transform3D(-0.7260001, 0, 6.346894e-08, 0, 0.7260001, 0, -6.346894e-08, 0, -0.7260001, -1.3532001, 1.434, 7.8355002)
+
+[node name="orangepumpkin" parent="Castle Interior" unique_id=897450129 instance=ExtResource("24_riyl1")]
+transform = Transform3D(0.9396926, 0, -0.34202012, 0, 1, 0, 0.34202012, 0, 0.9396926, 5.2000003, 0.4, -5.8)
+
+[node name="yellowpumpkin" parent="Castle Interior" unique_id=587393473 instance=ExtResource("25_pb8dk")]
+transform = Transform3D(0.8660254, 0, -0.5, 0, 1, 0, 0.5, 0, 0.8660254, 6.4, 0.4, -4.3)
+
+[node name="separatebrokenfence" parent="Castle Interior" unique_id=1769569664 instance=ExtResource("26_2mu51")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 6.9100003, 0.4, 5.2799993)
+
+[node name="separatebrokenfence2" parent="Castle Interior" unique_id=1686911468 instance=ExtResource("26_2mu51")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6799994, 0.4, -6.1400013)
+
+[node name="rug" parent="Castle Interior" unique_id=483119714 instance=ExtResource("18_i0g27")]
+transform = Transform3D(-1.2676303e-07, 0, -2.9, 0, 2.9, 0, 2.9, 0, -1.2676303e-07, 0.36000007, 0.255, 1.04)
+
+[node name="sign" parent="Castle Interior" unique_id=5519598 instance=ExtResource("19_ealrb")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -2.5, -7.450581e-09, 1.1999998)
+
+[node name="Label3D" type="Label3D" parent="Castle Interior/sign" unique_id=937500392]
+transform = Transform3D(-1.3, 0, -1.13649605e-07, 0, 1.3, 0, 1.13649605e-07, 0, -1.3, 3.5762787e-07, 1.4596126, -0.22560883)
+modulate = Color(0.5923393, 0.00054599525, 0.00029951768, 1)
+text = "What you seek
+lies beneath
+the rug...."
+font = ExtResource("26_pb8dk")
+
+[node name="skull" parent="Castle Interior" unique_id=216541840 instance=ExtResource("32_ype4i")]
+transform = Transform3D(-0.8210796, 0, -0.2988486, 0, 0.87377465, 0, 0.2988486, 0, -0.8210796, 3.8279424, 2.8270001, 7.9004483)
+
+[node name="MyBarrel" parent="Castle Interior" unique_id=991204971 instance=ExtResource("5_jsk3o")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -6.1500006, 0.33499998, 6.25)
+
+[node name="MyBarrel2" parent="Castle Interior" unique_id=878089184 instance=ExtResource("5_jsk3o")]
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -5.2500005, 0.32, 7.2999997)
+
+[node name="yellowjackolantern" parent="Castle Interior" unique_id=219657 instance=ExtResource("32_riyl1")]
+transform = Transform3D(0.64278764, 0, -0.76604444, 0, 1, 0, 0.76604444, 0, 0.64278764, 6.0605946, 0.4, -5.477863)
+
+[node name="standinglantern" parent="Castle Interior" unique_id=2104905674 instance=ExtResource("34_2mu51")]
+transform = Transform3D(0.9848077, 0, 0.17364818, 0, 1, 0, -0.17364818, 0, 0.9848077, -4.7811165, 0.4, -5.3841543)
+
+[node name="standinglantern2" parent="Castle Interior" unique_id=1023847891 instance=ExtResource("34_2mu51")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.8000002, 0.4, -0.1)
+
+[node name="Maze Decor" type="Node" parent="." unique_id=378886593]
+
+[node name="sign2" parent="Maze Decor" unique_id=1195415152 instance=ExtResource("19_ealrb")]
+transform = Transform3D(1.01429606e-07, 0, 0.7734797, 0, 0.7734797, 0, -0.7734797, 0, 1.01429606e-07, -22.10939, 0.3171267, 0.322651)
+
+[node name="Label3D" type="Label3D" parent="Maze Decor/sign2" unique_id=760216427]
+transform = Transform3D(-0.8884488, 0, -8.630072e-08, 0, 0.98716533, 0, 7.767065e-08, 0, -0.98716533, 3.5762787e-07, 1.4596126, -0.22560883)
+text = "find the place where
+all paths converge"
+font = ExtResource("26_pb8dk")
+font_size = 35
+line_spacing = 20.0
+autowrap_mode = 1
+
+[node name="skull" parent="Maze Decor" unique_id=454723450 instance=ExtResource("32_ype4i")]
+transform = Transform3D(0.4226042, 0, 0.9063143, 0, 1, 0, -0.9063143, 0, 0.4226042, -24.552809, 0.4, -24.175613)
+
+[node name="candles" parent="Maze Decor" unique_id=1931035876 instance=ExtResource("30_3s0n5")]
+transform = Transform3D(-0.50000006, 0, 0.8660254, 0, 1, 0, -0.8660254, 0, -0.50000006, -24.766476, 0.38931108, -22.552885)
+
+[node name="yellowjackolantern" parent="Maze Decor" unique_id=1016134357 instance=ExtResource("32_riyl1")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -9.8039, 0.4, -20.28138)
+
+[node name="shrinecandles" parent="Maze Decor" unique_id=617869742 instance=ExtResource("36_3s0n5")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 17.4, 0.4, -20.300001)
+
+[node name="separatebrokenfence" parent="Maze Decor" unique_id=1148172088 instance=ExtResource("26_2mu51")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.7, 0.39999998, -19.45)
+
+[node name="stackedcrates" parent="Maze Decor" unique_id=1202333026 instance=ExtResource("37_qpkl4")]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, -19.135, 0.4, 3.0230002)
+
+[node name="skullpost" parent="Maze Decor" unique_id=1616391736 instance=ExtResource("38_g4s1x")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -24.2, 0.4, -3.8800678)
+
+[node name="key" parent="Maze Decor" unique_id=904363028 instance=ExtResource("39_qpkl4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.21, 0.49, 22.290003)
+visible = false
+
+[node name="LightmapGI" type="LightmapGI" parent="." unique_id=68122141]
+light_data = ExtResource("40_g4s1x")
+
+[node name="Basement" type="CSGCombiner3D" parent="." unique_id=2050072164]
+visible = false
+material_override = SubResource("StandardMaterial3D_3aoce")
+metadata/_edit_lock_ = true
+
+[node name="Room1" type="Node" parent="Basement" unique_id=1046776420]
+
+[node name="Room1Floor" type="CSGBox3D" parent="Basement/Room1" unique_id=1040009183]
+transform = Transform3D(5.5725327, 0, 0, 0, 1, 0, 0, 0, 5.5725317, 28.672846, -10.182967, -0.043314934)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room1Ceiling" type="CSGBox3D" parent="Basement/Room1" unique_id=1541152995]
+transform = Transform3D(5.5725327, 0, 0, 0, 1, 0, 0, 0, 5.5725317, 28.672846, -6.443387, -0.043314934)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall" type="CSGBox3D" parent="Basement/Room1" unique_id=1881318786]
+transform = Transform3D(0.53331006, 0, -9.3246875e-08, 0, 1.538854, 0, 9.324689e-08, 0, 0.53331, 28.748877, -8.619774, 3.6506307)
+visible = false
+use_collision = true
+size = Vector3(13.555298, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall2" type="CSGBox3D" parent="Basement/Room1" unique_id=2122903244]
+transform = Transform3D(0.53331006, 0, -9.3246875e-08, 0, 1.538854, 0, 9.324689e-08, 0, 0.53331, 28.729292, -8.619774, -3.6089067)
+visible = false
+use_collision = true
+size = Vector3(13.452637, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall3" type="CSGBox3D" parent="Basement/Room1" unique_id=1754604660]
+transform = Transform3D(-1.1655862e-07, 0, -0.53331, 0, 1.538854, 0, 0.53331006, 0, -1.165586e-07, 32.18957, -8.619774, -0.05731678)
+visible = false
+use_collision = true
+size = Vector3(13.341431, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room2" type="Node" parent="Basement" unique_id=761130669]
+
+[node name="Room2Floor" type="CSGBox3D" parent="Basement/Room2" unique_id=1186087217]
+transform = Transform3D(-5.5725327, 0, 4.871662e-07, 0, 0.99999994, 0, -4.871663e-07, 0, -5.5725317, -28.144156, -10.182967, -0.043314934)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room2Ceiling" type="CSGBox3D" parent="Basement/Room2" unique_id=1938395049]
+transform = Transform3D(-5.5725327, 0, 4.871662e-07, 0, 0.99999994, 0, -4.871663e-07, 0, -5.5725317, -28.144156, -6.454856, -0.043314934)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall" type="CSGBox3D" parent="Basement/Room2" unique_id=2014993358]
+transform = Transform3D(-0.53331006, 0, 1.3987031e-07, 0, 1.5388539, 0, -1.3987034e-07, 0, -0.53331, -28.220186, -8.619774, -3.7372606)
+visible = false
+use_collision = true
+size = Vector3(13.555298, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall2" type="CSGBox3D" parent="Basement/Room2" unique_id=554425345]
+transform = Transform3D(-0.53331006, 0, 1.3987031e-07, 0, 1.5388539, 0, -1.3987034e-07, 0, -0.53331, -28.200602, -8.619774, 3.5222769)
+visible = false
+use_collision = true
+size = Vector3(13.452637, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall3" type="CSGBox3D" parent="Basement/Room2" unique_id=510560885]
+transform = Transform3D(1.6318205e-07, 0, 0.53331, 0, 1.5388539, 0, -0.53331006, 0, 1.6318205e-07, -31.660881, -8.619774, -0.029313393)
+visible = false
+use_collision = true
+size = Vector3(13.341431, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room3" type="Node" parent="Basement" unique_id=1395392102]
+
+[node name="Room3Floor" type="CSGBox3D" parent="Basement/Room3" unique_id=1383098091]
+transform = Transform3D(7.3074943e-07, 0, 5.5725317, 0, 0.99999994, 0, -5.572533, 0, 7.307493e-07, 0.041971207, -10.182967, -28.43443)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room3Ceiling" type="CSGBox3D" parent="Basement/Room3" unique_id=661519427]
+transform = Transform3D(7.3074943e-07, 0, 5.5725317, 0, 0.99999994, 0, -5.572533, 0, 7.307493e-07, 0.041971207, -6.420272, -28.43443)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall" type="CSGBox3D" parent="Basement/Room3" unique_id=195534341]
+transform = Transform3D(1.6318205e-07, 0, 0.53331, 0, 1.5388539, 0, -0.53331006, 0, 1.6318205e-07, 3.7359169, -8.619774, -28.510458)
+visible = false
+use_collision = true
+size = Vector3(13.555298, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall2" type="CSGBox3D" parent="Basement/Room3" unique_id=230379156]
+transform = Transform3D(1.6318205e-07, 0, 0.53331, 0, 1.5388539, 0, -0.53331006, 0, 1.6318205e-07, -3.5236206, -8.619774, -28.490877)
+visible = false
+use_collision = true
+size = Vector3(13.452637, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall3" type="CSGBox3D" parent="Basement/Room3" unique_id=214568095]
+transform = Transform3D(0.53331006, 0, -1.8649376e-07, 0, 1.5388539, 0, 1.8649379e-07, 0, 0.53331006, 0.027969819, -8.619774, -31.951155)
+visible = false
+use_collision = true
+size = Vector3(13.341431, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room4" type="Node" parent="Basement" unique_id=1650175681]
+
+[node name="Room4Floor" type="CSGBox3D" parent="Basement/Room4" unique_id=811473840]
+transform = Transform3D(-1.2179157e-06, 0, -5.5725317, 0, 0.99999994, 0, 5.572533, 0, -1.2179155e-06, 0.041971207, -10.182967, 26.957413)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall" type="CSGBox3D" parent="Basement/Room4" unique_id=544405211]
+transform = Transform3D(-2.098055e-07, 0, -0.53331, 0, 1.538854, 0, 0.53331006, 0, -2.0980548e-07, -3.6519742, -8.619774, 27.033442)
+visible = false
+use_collision = true
+size = Vector3(13.555298, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall2" type="CSGBox3D" parent="Basement/Room4" unique_id=1313053443]
+transform = Transform3D(-2.098055e-07, 0, -0.53331, 0, 1.538854, 0, 0.53331006, 0, -2.0980548e-07, 3.607563, -8.619774, 27.013863)
+visible = false
+use_collision = true
+size = Vector3(13.452637, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room Wall3" type="CSGBox3D" parent="Basement/Room4" unique_id=1327898702]
+transform = Transform3D(-0.53331006, 0, 2.331172e-07, 0, 1.538854, 0, -2.3311722e-07, 0, -0.53331006, 0.055972286, -8.619774, 30.474138)
+visible = false
+use_collision = true
+size = Vector3(13.341431, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Room4Ceiling" type="CSGBox3D" parent="Basement/Room4" unique_id=729383164]
+transform = Transform3D(-1.2179157e-06, 0, -5.5725317, 0, 0.99999994, 0, 5.572533, 0, -1.2179155e-06, 0.041971207, -6.4063745, 26.957413)
+visible = false
+use_collision = true
+size = Vector3(1.2579956, 0.8955078, 1.2823334)
+metadata/_edit_lock_ = true
+
+[node name="BasementMaze" type="Node" parent="Basement" unique_id=1357649831]
+
+[node name="Basement Maze" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1300403517]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -2.822201, -8.619774, 12.210615)
+visible = false
+use_collision = true
+size = Vector3(6.405469, 3.4, 0.5869258)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall67" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=813308564]
+transform = Transform3D(1, 0, -1.7484555e-07, 0, 1, 0, 1.7484555e-07, 0, 1, -1.8222015, -8.619774, 19.910614)
+visible = false
+use_collision = true
+size = Vector3(6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall4" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1594595886]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -0.32220078, -8.619774, 9.710615)
+visible = false
+use_collision = true
+size = Vector3(5.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall10" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=458938444]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -1.8722012, -8.619774, 17.410614)
+visible = false
+use_collision = true
+size = Vector3(5.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall71" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1718342309]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -7.372201, -8.619774, 21.23806)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall74" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=318764274]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -18.049166, -8.619774, 23.042303)
+visible = false
+use_collision = true
+size = Vector3(1.263379, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall72" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=761796781]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -9.772202, -8.619774, 18.988642)
+visible = false
+use_collision = true
+size = Vector3(4.11605, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall73" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=451844886]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -15.3722, -8.619774, 19.011145)
+visible = false
+use_collision = true
+size = Vector3(4.1610594, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall75" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1310581961]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -12.572199, -8.619774, 19.504766)
+visible = false
+use_collision = true
+size = Vector3(5.148303, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall13" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=105027864]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 0.26779985, -8.619774, -21.808867)
+visible = false
+use_collision = true
+size = Vector3(2.838965, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall22" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2088132119]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 7.2678003, -8.619774, -22.789392)
+visible = false
+use_collision = true
+size = Vector3(4.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall15" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=816916130]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -6.9821997, -8.619774, -20.689386)
+visible = false
+use_collision = true
+size = Vector3(9.1, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall18" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1503489880]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -1.1821997, -8.619774, -18.18939)
+visible = false
+use_collision = true
+size = Vector3(9.1, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall79" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=159735106]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 14.3178005, -8.619774, -22.089384)
+visible = false
+use_collision = true
+size = Vector3(9.1, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall82" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2075356493]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 15.567802, -8.619774, -19.589384)
+visible = false
+use_collision = true
+size = Vector3(6.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall21" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=696106787]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 0.9678004, -8.619774, -15.989389)
+visible = false
+use_collision = true
+size = Vector3(13.400001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall17" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1945309837]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 2.6678007, -8.619774, -20.689386)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall31" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=799901577]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -10.582202, -8.619774, -18.53939)
+visible = false
+use_collision = true
+size = Vector3(4.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall34" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1231686463]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -17.582203, -8.619774, -16.739388)
+visible = false
+use_collision = true
+size = Vector3(3.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall38" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2087451232]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -18.682201, -8.619774, -13.739389)
+visible = false
+use_collision = true
+size = Vector3(6.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall39" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2029611623]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -14.0822, -8.619774, -10.7393875)
+visible = false
+use_collision = true
+size = Vector3(11.400001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall41" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1255678843]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -18.882202, -8.619774, -8.239389)
+visible = false
+use_collision = true
+size = Vector3(2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall32" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=362227018]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -13.2822, -8.619774, -15.889389)
+visible = false
+use_collision = true
+size = Vector3(5.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall24" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2087363775]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 9.867801, -8.619774, -16.539394)
+visible = false
+use_collision = true
+size = Vector3(11.7, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall25" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1912605633]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 7.467802, -8.619774, -18.08939)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall52" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=934233303]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 18.567802, -8.619774, -20.839392)
+visible = false
+use_collision = true
+size = Vector3(3.1000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall92" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1422058267]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 20.8678, -8.619774, -22.339392)
+visible = false
+use_collision = true
+size = Vector3(5.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall53" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1832659390]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 7.467802, -8.619774, -18.08939)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall54" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=806412483]
+transform = Transform3D(-2.1855696e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855696e-07, -12.832202, -8.619774, 1.7606087)
+visible = false
+use_collision = true
+size = Vector3(6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall66" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1027897808]
+transform = Transform3D(-2.1855696e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855696e-07, -13.732201, -8.619774, 9.460609)
+visible = false
+use_collision = true
+size = Vector3(4.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall55" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1864038929]
+transform = Transform3D(-1, 0, 2.6226837e-07, 0, 1, 0, -2.6226837e-07, 0, -1, -11.232202, -8.619774, 1.1606054)
+visible = false
+use_collision = true
+size = Vector3(3.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall16" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1830760631]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -9.2322, -8.619774, -22.88939)
+visible = false
+use_collision = true
+size = Vector3(13.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall23" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1332568146]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 3.867801, -8.619774, -22.88939)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall14" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=486099514]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -2.7022, -8.619774, -23.889387)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall20" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=601638722]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 2.7978003, -8.619774, -23.889387)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall43" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1602992487]
+transform = Transform3D(1, 0, -2.3048183e-07, 0, 1, 0, 2.3048183e-07, 0, 1, -15.574699, -8.619774, -3.4318867)
+visible = false
+use_collision = true
+size = Vector3(5.7000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall44" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1730431955]
+transform = Transform3D(-2.741932e-07, 0, -1, 0, 1, 0, 1, 0, -2.741932e-07, -13.024701, -8.619774, -5.831888)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall45" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=578148415]
+transform = Transform3D(-2.741932e-07, 0, -1, 0, 1, 0, 1, 0, -2.741932e-07, -15.2247, -8.619774, -6.9318867)
+visible = false
+use_collision = true
+size = Vector3(3, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall46" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=467739739]
+transform = Transform3D(1, 0, -2.3048183e-07, 0, 1, 0, 2.3048183e-07, 0, 1, -19.862345, -8.619774, -5.66189)
+visible = false
+use_collision = true
+size = Vector3(9.875294, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall19" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=200283168]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -5.4022, -8.619774, -16.939386)
+visible = false
+use_collision = true
+size = Vector3(2.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall30" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=760155454]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 1.5978, -8.619774, -14.689386)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall77" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1908366284]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -6.1022005, -8.619774, -9.474386)
+visible = false
+use_collision = true
+size = Vector3(3.57, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall40" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1987119957]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -15.6022, -8.619774, -12.389387)
+visible = false
+use_collision = true
+size = Vector3(3.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall36" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=910049727]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -2.6022, -8.619774, -19.639387)
+visible = false
+use_collision = true
+size = Vector3(2.7, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall26" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1258128278]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, -15.525536, -8.619774, 12.963945)
+visible = false
+use_collision = true
+size = Vector3(3.28, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall58" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1036389902]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, -18.02554, -8.619774, 15.868942)
+visible = false
+use_collision = true
+size = Vector3(9.07, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall59" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=632309968]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, -20.725534, -8.619774, 17.412037)
+visible = false
+use_collision = true
+size = Vector3(12.156191, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall60" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=605661740]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -19.27554, -8.619774, 11.633945)
+visible = false
+use_collision = true
+size = Vector3(2.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall69" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1681049287]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 8.408337, -8.619774, 22.17395)
+visible = false
+use_collision = true
+size = Vector3(6.845581, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall128" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=997200394]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, -6.2837358, -8.619774, 22.646318)
+visible = false
+use_collision = true
+size = Vector3(2.8329468, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall70" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1822846757]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 5.281126, -8.619774, 23.223946)
+visible = false
+use_collision = true
+size = Vector3(2.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall126" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1197257169]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 11.511126, -8.619774, 21.38752)
+visible = false
+use_collision = true
+size = Vector3(3.2271485, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall64" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=363469532]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -12.875539, -8.619774, 11.633945)
+visible = false
+use_collision = true
+size = Vector3(5.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall61" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=326953739]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -21.675539, -8.619774, 18.633942)
+visible = false
+use_collision = true
+size = Vector3(1.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall62" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1340806715]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -16.575539, -8.619774, 14.433945)
+visible = false
+use_collision = true
+size = Vector3(2.7, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall101" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1242574011]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 16.729462, -8.619774, 23.113945)
+visible = false
+use_collision = true
+size = Vector3(3.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall102" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1809477541]
+transform = Transform3D(-5.682481e-07, 0, -1, 0, 1, 0, 1, 0, -5.682481e-07, 15.522797, -8.619774, 16.76061)
+visible = false
+use_collision = true
+size = Vector3(3.28, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall103" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=397399567]
+transform = Transform3D(-5.682481e-07, 0, -1, 0, 1, 0, 1, 0, -5.682481e-07, 18.022799, -8.619774, 13.855611)
+visible = false
+use_collision = true
+size = Vector3(9.07, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall104" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2122774551]
+transform = Transform3D(-5.682481e-07, 0, -1, 0, 1, 0, 1, 0, -5.682481e-07, 20.7228, -8.619774, 11.45561)
+visible = false
+use_collision = true
+size = Vector3(13.87, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall122" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1019804605]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 22.16938, -8.619774, 20.696579)
+visible = false
+use_collision = true
+size = Vector3(5.9631596, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall105" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1276872108]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 19.272797, -8.619774, 18.09061)
+visible = false
+use_collision = true
+size = Vector3(2.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall106" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1697500293]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 11.572801, -8.619774, 18.090607)
+visible = false
+use_collision = true
+size = Vector3(8.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall107" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1855351828]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 22.89239, -8.619774, 11.090612)
+visible = false
+use_collision = true
+size = Vector3(4.3391848, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall108" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1147394805]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 16.572798, -8.619774, 15.290611)
+visible = false
+use_collision = true
+size = Vector3(2.7, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall76" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1200226802]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -13.955538, -8.619774, 17.033943)
+visible = false
+use_collision = true
+size = Vector3(3.4199998, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall63" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2084972125]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, -22.247255, -8.619774, 8.533943)
+visible = false
+use_collision = true
+size = Vector3(4.8434324, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall5" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1063908748]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -4.122201, -8.619774, 8.510614)
+visible = false
+use_collision = true
+size = Vector3(3.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall8" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=358604010]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -4.122201, -8.619774, 16.110611)
+visible = false
+use_collision = true
+size = Vector3(2.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall6" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1395750100]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, -7.622202, -8.619774, 11.010614)
+visible = false
+use_collision = true
+size = Vector3(8.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall12" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1773729728]
+transform = Transform3D(-2.1855695e-07, 0, -1, 0, 1, 0, 1, 0, -2.1855695e-07, 2.8777978, -8.619774, 11.110615)
+visible = false
+use_collision = true
+size = Vector3(8.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall7" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=560313043]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -8.047202, -8.619774, 14.800615)
+visible = false
+use_collision = true
+size = Vector3(8.45, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall9" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1514172894]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -6.912202, -8.619774, 17.200617)
+visible = false
+use_collision = true
+size = Vector3(6.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall27" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=985627865]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, -4.7059493, -8.619774, -13.765633)
+visible = false
+use_collision = true
+size = Vector3(8.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall78" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2040470524]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 0.3940506, -8.619774, -10.965635)
+visible = false
+use_collision = true
+size = Vector3(7.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall28" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=45355045]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -8.49595, -8.619774, -14.630634)
+visible = false
+use_collision = true
+size = Vector3(8.37, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall35" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1635468306]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -19.295952, -8.619774, -22.665636)
+visible = false
+use_collision = true
+size = Vector3(5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall33" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=237326042]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -15.69595, -8.619774, -19.715633)
+visible = false
+use_collision = true
+size = Vector3(6.6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall37" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2126945660]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -21.695946, -8.619774, -15.065638)
+visible = false
+use_collision = true
+size = Vector3(14.3, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall42" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1201995779]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -18.095947, -8.619774, -5.915634)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall29" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1083122134]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, -10.995949, -8.619774, -12.855637)
+visible = false
+use_collision = true
+size = Vector3(7.4, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall93" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2072958737]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 20.700798, -8.619774, -0.7753849)
+visible = false
+use_collision = true
+size = Vector3(5.3, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall118" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=657721860]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 15.900797, -8.619774, 5.224615)
+visible = false
+use_collision = true
+size = Vector3(4.1, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall94" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1733708624]
+transform = Transform3D(3.0597974e-07, 0, 1, 0, 1, 0, -1, 0, 3.0597974e-07, 12.6008005, -8.619774, -3.825386)
+visible = false
+use_collision = true
+size = Vector3(11, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall95" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=656868281]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 18.050797, -8.619774, -3.2253838)
+visible = false
+use_collision = true
+size = Vector3(5.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall119" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1852819007]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 19.550797, -8.619774, 4.854616)
+visible = false
+use_collision = true
+size = Vector3(2.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall98" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=860305723]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 22.957893, -8.619774, -6.1253834)
+visible = false
+use_collision = true
+size = Vector3(4.5141845, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall96" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=653965690]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 16.492044, -8.619774, 1.5608664)
+visible = false
+use_collision = true
+size = Vector3(8.37, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall97" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=379445575]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 15.417044, -8.619774, -0.9391346)
+visible = false
+use_collision = true
+size = Vector3(6, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall111" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=906060395]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 15.707043, -8.619774, 7.1608663)
+visible = false
+use_collision = true
+size = Vector3(5.18, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall121" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=638017262]
+transform = Transform3D(1, 0, -3.4969113e-07, 0, 1, 0, 3.4969113e-07, 0, 1, 15.617044, -8.619774, 12.560865)
+visible = false
+use_collision = true
+size = Vector3(5.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall120" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=825546318]
+transform = Transform3D(-1, 0, 4.3711393e-07, 0, 1, 0, -4.3711393e-07, 0, -1, 16.667044, -8.619774, 9.610868)
+visible = false
+use_collision = true
+size = Vector3(3.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall47" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1768648305]
+transform = Transform3D(1, 0, -3.496911e-07, 0, 1, 0, 3.496911e-07, 0, 1, -19.979473, -8.619774, 5.8231173)
+visible = false
+use_collision = true
+size = Vector3(9.393555, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall48" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=77020902]
+transform = Transform3D(-3.934025e-07, 0, -1, 0, 1, 0, 1, 0, -3.934025e-07, -18.082697, -8.619774, 3.9231148)
+visible = false
+use_collision = true
+size = Vector3(9.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall56" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=153240080]
+transform = Transform3D(-3.934025e-07, 0, -1, 0, 1, 0, 1, 0, -3.934025e-07, -15.482696, -8.619774, -1.0768833)
+visible = false
+use_collision = true
+size = Vector3(4.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall80" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1471956767]
+transform = Transform3D(3.61616e-07, 0, 1, 0, 1, 0, -1, 0, 3.61616e-07, 6.3080864, -8.619774, -10.682314)
+visible = false
+use_collision = true
+size = Vector3(5.7000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall99" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=683467277]
+transform = Transform3D(3.61616e-07, 0, 1, 0, 1, 0, -1, 0, 3.61616e-07, 8.408085, -8.619774, -3.432314)
+visible = false
+use_collision = true
+size = Vector3(15, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall81" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=496773268]
+transform = Transform3D(1, 0, -4.053274e-07, 0, 1, 0, 4.053274e-07, 0, 1, 3.908086, -8.619774, -13.232313)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall83" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1707248145]
+transform = Transform3D(3.61616e-07, 0, 1, 0, 1, 0, -1, 0, 3.61616e-07, 4.078087, -8.619774, -9.062315)
+visible = false
+use_collision = true
+size = Vector3(4.4, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall84" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=591889815]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, 3.8243382, -8.619774, -8.161068)
+visible = false
+use_collision = true
+size = Vector3(5.2000003, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall85" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1136621177]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 8.213089, -8.619774, -10.774319)
+visible = false
+use_collision = true
+size = Vector3(3.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall109" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2142562677]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 13.302809, -8.619774, 5.07654)
+visible = false
+use_collision = true
+size = Vector3(7.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall110" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=5041441]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 10.862807, -8.619774, 6.4415393)
+visible = false
+use_collision = true
+size = Vector3(13.37, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall112" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=889571039]
+transform = Transform3D(-5.682481e-07, 0, -1, 0, 1, 0, 1, 0, -5.682481e-07, 13.312807, -8.619774, 13.041543)
+visible = false
+use_collision = true
+size = Vector3(4.97, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall123" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1451155625]
+transform = Transform3D(-5.682481e-07, 0, -1, 0, 1, 0, 1, 0, -5.682481e-07, 13.612807, -8.619774, 19.609192)
+visible = false
+use_collision = true
+size = Vector3(3.3052979, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall113" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1245605977]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, 11.582808, -8.619774, 0.056539536)
+visible = false
+use_collision = true
+size = Vector3(2.04, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall114" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1307469776]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, 8.352807, -8.619774, 7.056538)
+visible = false
+use_collision = true
+size = Vector3(5.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall115" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1587218979]
+transform = Transform3D(1, 0, -5.80173e-07, 0, 1, 0, 5.80173e-07, 0, 1, 5.395731, -8.619774, 11.766825)
+visible = false
+use_collision = true
+size = Vector3(4.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall116" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1125004419]
+transform = Transform3D(-6.238843e-07, 0, -1, 0, 1, 0, 1, 0, -6.238843e-07, 7.7457333, -8.619774, 12.516826)
+visible = false
+use_collision = true
+size = Vector3(6.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall124" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=812889430]
+transform = Transform3D(-6.238843e-07, 0, -1, 0, 1, 0, 1, 0, -6.238843e-07, 10.845734, -8.619774, 16.716827)
+visible = false
+use_collision = true
+size = Vector3(2.9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall127" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1930381241]
+transform = Transform3D(-6.238843e-07, 0, -1, 0, 1, 0, 1, 0, -6.238843e-07, 7.605733, -8.619774, 19.201824)
+visible = false
+use_collision = true
+size = Vector3(2.73, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall117" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=2126455235]
+transform = Transform3D(-7.4309366e-07, 0, -1, 0, 1, 0, 1, 0, -7.4309366e-07, 5.287736, -8.619774, 15.821829)
+visible = false
+use_collision = true
+size = Vector3(8.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall100" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1383366616]
+transform = Transform3D(1, 0, -5.245367e-07, 0, 1, 0, 5.245367e-07, 0, 1, 11.563088, -8.619774, -9.01432)
+visible = false
+use_collision = true
+size = Vector3(2.4, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall57" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=45838705]
+transform = Transform3D(-3.934025e-07, 0, -1, 0, 1, 0, 1, 0, -3.934025e-07, -15.482696, -8.619774, 6.223116)
+visible = false
+use_collision = true
+size = Vector3(4.8, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall65" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1002420613]
+transform = Transform3D(-3.934025e-07, 0, -1, 0, 1, 0, 1, 0, -3.934025e-07, -11.482695, -8.619774, 8.323116)
+visible = false
+use_collision = true
+size = Vector3(2.6000001, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall49" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=823035298]
+transform = Transform3D(1, 0, -3.496911e-07, 0, 1, 0, 3.496911e-07, 0, 1, -22.258953, -8.619774, -2.05064)
+visible = false
+use_collision = true
+size = Vector3(2.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall51" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1229497289]
+transform = Transform3D(-3.934025e-07, 0, -1, 0, 1, 0, 1, 0, -3.934025e-07, -21.068949, -8.619774, 0.13936234)
+visible = false
+use_collision = true
+size = Vector3(7.4, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall86" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1410843244]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, 16.634386, -8.619774, -16.812304)
+visible = false
+use_collision = true
+size = Vector3(8.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall87" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=446552970]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 15.184383, -8.619774, -12.8123)
+visible = false
+use_collision = true
+size = Vector3(14, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall88" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1342482811]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 12.584385, -8.619774, -14.372307)
+visible = false
+use_collision = true
+size = Vector3(5.5, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall89" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=551989513]
+transform = Transform3D(-1, 0, 4.371139e-07, 0, 1, 0, -4.371139e-07, 0, -1, 19.360638, -8.619774, -8.938547)
+visible = false
+use_collision = true
+size = Vector3(2.2, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall90" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1343313108]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 20.670635, -8.619774, -12.86355)
+visible = false
+use_collision = true
+size = Vector3(8.45, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall91" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1684818469]
+transform = Transform3D(4.808253e-07, 0, 1, 0, 1, 0, -1, 0, 4.808253e-07, 18.170633, -8.619774, -10.32855)
+visible = false
+use_collision = true
+size = Vector3(9, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall11" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=371790730]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 0.5377984, -8.619774, 14.900618)
+visible = false
+use_collision = true
+size = Vector3(5.3, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Back Wall125" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=122044324]
+transform = Transform3D(-1, 0, 2.6226834e-07, 0, 1, 0, -2.6226834e-07, 0, -1, 2.8377984, -8.619774, 17.40062)
+visible = false
+use_collision = true
+size = Vector3(5.3, 3.4, 0.6)
+metadata/_edit_lock_ = true
+
+[node name="Basement Floor" type="CSGBox3D" parent="Basement/BasementMaze" unique_id=1952141999]
+transform = Transform3D(10.448955, 0, 0, 0, 1, 0, 0, 0, 10.448955, 0.26722813, -10.182967, -0.69377136)
+visible = false
+use_collision = true
+size = Vector3(4.819824, 0.8955078, 4.6525574)
+metadata/_edit_lock_ = true

@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://6pccruggdh27"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pvk6h"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_psqir"]
+emission_shape = 3
+emission_box_extents = Vector3(10, 0.5, 10)
+direction = Vector3(0, -1, 0)
+spread = 5.0
+initial_velocity_min = 20.0
+initial_velocity_max = 25.0
+color = Color(0.6648485, 0.15120852, 0.07891675, 0.19900002)
+collision_mode = 2
+
+[sub_resource type="Curve" id="Curve_jd41x"]
+_limits = [0.0, 0.1, 0.0, 1.0]
+_data = [Vector2(0.0031446554, 0.0011152402), 0.0, 0.0, 0, 0, Vector2(0.02201258, 0.046840146), 0.6856508, 0.6856508, 0, 0, Vector2(0.12893082, 0.0795539), 0.19860215, 0.19860215, 0, 0, Vector2(0.3962264, 0.1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6q3dt"]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+use_particle_trails = true
+
+[sub_resource type="RibbonTrailMesh" id="RibbonTrailMesh_cgomf"]
+material = SubResource("StandardMaterial3D_6q3dt")
+curve = SubResource("Curve_jd41x")
+
+[node name="Rain_FX_Tutorial" type="Node3D" unique_id=1673407880]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=819241144]
+transform = Transform3D(25.843916, 0, 0, 0, 1, 0, 0, 0, 24.758282, 0, 0, 0)
+mesh = SubResource("PlaneMesh_pvk6h")
+
+[node name="GPUParticlesCollisionBox3D" type="GPUParticlesCollisionBox3D" parent="MeshInstance3D" unique_id=560804020]
+transform = Transform3D(25.843918, 0, 0, 0, 1, 0, 0, 0, 24.758282, -1.0332367e-06, 0, -0.025400082)
+size = Vector3(0.08, 2, 0.08)
+
+[node name="GPUParticles3D" type="GPUParticles3D" parent="." unique_id=117574606]
+transform = Transform3D(2.9, 0, 0, 0, 2.9, 0, 0, 0, 2.9, 0, 30.408142, 0)
+amount = 400
+lifetime = 2.0
+randomness = 0.5
+visibility_aabb = AABB(-10, -10, -10, 20, 20, 20)
+trail_enabled = true
+trail_lifetime = 0.2
+process_material = SubResource("ParticleProcessMaterial_psqir")
+draw_pass_1 = SubResource("RibbonTrailMesh_cgomf")

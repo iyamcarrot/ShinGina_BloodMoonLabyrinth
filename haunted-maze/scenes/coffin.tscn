@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://buotwu1pjsxik"]
+
+[ext_resource type="PackedScene" uid="uid://csahf2gm7876n" path="res://assests/KayKit_HalloweenBits_1.0_FREE/Assets/gltf/coffin_decorated.gltf" id="1_fe18d"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_o11qi"]
+points = PackedVector3Array(1, 0.74994165, -0.5000979, 1, 0.09991566, -0.5000979, 0.5998434, 0.74994165, -1.5, 0.20301485, 0.8872263, -0.7218089, 0.5998434, 0.74994165, 1.5, 0.89526236, 0, -0.5000979, 0.5998434, 0.09991566, -1.5, 0.5998434, 0.09991566, 1.5, 0.5152701, 0, 1.399863, -0.6000391, 0.74994165, -1.5, 0.0017619133, 0.8889048, -0.8748042, 0.19342208, 0.871943, -0.8865505, 0.018989801, 0.9025096, -0.69949096, -0.6000391, 0.74994165, 1.5, 0.5350431, 0, -1.4001566, -0.6000391, 0.09991566, -1.5, -0.6000391, 0.09991566, 1.5, -0.515466, 0, 1.399863, -1, 0.74994165, -0.5000979, -0.16503525, 0.8816607, -0.6851018, -0.16209865, 0.8698228, -0.84191465, -0.53523886, 0, -1.4001566, -0.8954581, 0, -0.5000979, -1, 0.09991566, -0.5000979)
+
+[node name="coffin" type="StaticBody3D" unique_id=868543835]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1656060763]
+shape = SubResource("ConvexPolygonShape3D_o11qi")
+
+[node name="coffin_decorated2" parent="." unique_id=1123999010 instance=ExtResource("1_fe18d")]
+
+[editable path="coffin_decorated2"]
