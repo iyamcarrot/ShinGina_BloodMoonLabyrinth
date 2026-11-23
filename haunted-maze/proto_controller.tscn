@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bs72ogkvdd7d6"]
 
 [ext_resource type="Script" uid="uid://liruoe0b0nu5" path="res://addons/proto_controller/proto_controller.gd" id="1_ucva2"]
+[ext_resource type="PackedScene" uid="uid://bf0joxbgc48q8" path="res://scenes/crosshair.tscn" id="2_d85cr"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iof21"]
 albedo_color = Color(0.91806, 0.575202, 0.222449, 1)
@@ -35,3 +36,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7, 0)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
 
 [node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="Footsteps" unique_id=639604860]
+
+[node name="Control" parent="." unique_id=1034260219 instance=ExtResource("2_d85cr")]

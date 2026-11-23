@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://da4r6p4ak06tm"]
+
+[ext_resource type="PackedScene" uid="uid://baqysubxnnlpx" path="res://lever.glb" id="1_4kwec"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pvk6h"]
+size = Vector3(0.42, 0.98999995, 1)
+
+[node name="Node3D" type="Node3D" unique_id=1903465808]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2098973729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.019999996, 0.375, 0)
+shape = SubResource("BoxShape3D_pvk6h")
+
+[node name="Sketchfab_Scene" parent="CollisionShape3D" unique_id=188990600 instance=ExtResource("1_4kwec")]
+transform = Transform3D(0.05, 0, 0, 0, 0.05, 0, 0, 0, 0.05, 0.019999996, -0.375, 5.9604645e-08)
+
+[node name="Cube_001" parent="CollisionShape3D/Sketchfab_Scene/Sketchfab_model/57c7fc5c3ecb4769b4615dbfc4e4d3ad_fbx/Object_2/RootNode" parent_id_path=PackedInt32Array(188990600, 605097751) index="1" unique_id=1934427492]
+transform = Transform3D(100, 0, 0, 0, 38.102695, 92.4564, 0, -92.4564, 38.102695, 0, 163.57991, 0)
+
+[editable path="CollisionShape3D/Sketchfab_Scene"]

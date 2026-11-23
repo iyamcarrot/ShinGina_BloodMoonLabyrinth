@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bf0joxbgc48q8"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7df2h"]
+font_color = Color(0.44943547, 0.43380448, 0.40393594, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=2146224522]
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=1845302838]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="CenterContainer" unique_id=1101951090]
+layout_mode = 2
+text = "o"
+label_settings = SubResource("LabelSettings_7df2h")
